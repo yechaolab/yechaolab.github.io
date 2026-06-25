@@ -3,295 +3,310 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>叶超课题组 | Ye Chao Research Group</title>
-  <meta name="description" content="复旦大学国际关系与公共事务学院 - 治理科学与可持续发展研究">
+  <title>叶超课题组 | Ye Chao's Lab</title>
+  <meta name="description" content="复旦大学国际关系与公共事务学院 叶超课题组">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Source+Serif+4:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- ============================================================
-     导航栏 Navigation
+     导航栏
      ============================================================ -->
 <nav class="navbar" id="navbar">
   <div class="nav-container">
-    <a href="#" class="nav-logo">
-      <span class="logo-dot"></span>
-      <span data-zh="叶超课题组" data-en="Ye Chao Research Group">叶超课题组</span>
-    </a>
+    <a href="#" class="nav-logo" data-zh="叶超课题组" data-en="Ye Chao's Lab">叶超课题组</a>
     <div class="nav-right">
-      <div class="nav-links">
+      <div class="nav-links" id="nav-links">
+        <a href="#home" data-zh="主页" data-en="Home">主页</a>
         <a href="#research" data-zh="研究方向" data-en="Research">研究方向</a>
-        <a href="#team" data-zh="团队" data-en="Team">团队</a>
-        <a href="#publications" data-zh="学术成果" data-en="Publications">学术成果</a>
         <a href="#news" data-zh="动态" data-en="News">动态</a>
+        <a href="#team" data-zh="研究团队" data-en="Team">研究团队</a>
+        <a href="#publications" data-zh="学术成果" data-en="Publications">学术成果</a>
         <a href="#contact" data-zh="联系" data-en="Contact">联系</a>
       </div>
-      <button class="lang-btn" onclick="toggleLang()" title="Switch Language">
-        <span id="lang-label">EN</span>
-      </button>
+      <button class="lang-btn" onclick="toggleLang()"><span id="lang-label">EN</span></button>
+      <button class="menu-btn" onclick="toggleMenu()" aria-label="Menu">&#9776;</button>
     </div>
   </div>
 </nav>
 
 <!-- ============================================================
-     首页横幅 Hero
+     主页 Hero — 照片 + 简介
+     修改指南：把 <div class="photo-placeholder"> 替换为
+     <img src="images/ye-chao.jpg" alt="叶超" class="hero-img">
      ============================================================ -->
-<header class="hero">
-  <div class="container">
-    <h1 data-zh="治理科学与可持续发展研究" data-en="Governance Science &amp; Sustainability Research">治理科学与可持续发展研究</h1>
-    <p class="hero-sub" data-zh="聚焦城乡治理、气候治理、数字化治理与可持续科学，融合地理学思想与跨学科方法，回应全球治理与生态文明建设的核心议题。" data-en="We study urban-rural governance, climate governance, digital governance, and sustainability science, integrating geographic thought and interdisciplinary methods to address core issues of global governance and ecological civilization.">聚焦城乡治理、气候治理、数字化治理与可持续科学，融合地理学思想与跨学科方法，回应全球治理与生态文明建设的核心议题。</p>
-    <p class="hero-aff" data-zh="复旦大学 · 国际关系与公共事务学院" data-en="Fudan University · School of International Relations and Public Affairs">复旦大学 · 国际关系与公共事务学院</p>
+<header id="home" class="hero">
+  <div class="container hero-layout">
+    <div class="hero-photo">
+      <div class="photo-placeholder">叶超</div>
+    </div>
+    <div class="hero-text">
+      <h1 data-zh="叶超" data-en="Ye Chao">叶超</h1>
+      <p class="hero-title" data-zh="教授、博士生导师" data-en="Professor">教授、博士生导师</p>
+      <p class="hero-aff" data-zh="复旦大学 国际关系与公共事务学院" data-en="School of International Relations and Public Affairs, Fudan University">复旦大学 国际关系与公共事务学院</p>
+      <p class="hero-bio" data-zh="叶超课题组聚焦治理科学与可持续发展研究，涵盖城乡治理、气候治理、数字化治理、生态文明与环境治理等前沿领域，同时深耕地理学思想与文化地理。课题组致力于融合跨学科方法，回应全球治理与生态文明建设的核心议题。" data-en="Ye Chao's Lab focuses on governance science and sustainability research, covering urban-rural governance, climate governance, digital governance, ecological civilization, and environmental governance. The group also engages deeply with geographic thought and cultural geography, integrating interdisciplinary methods to address core issues of global governance and ecological civilization.">叶超课题组聚焦治理科学与可持续发展研究，涵盖城乡治理、气候治理、数字化治理、生态文明与环境治理等前沿领域，同时深耕地理学思想与文化地理。课题组致力于融合跨学科方法，回应全球治理与生态文明建设的核心议题。</p>
+      <p class="hero-email"><a href="mailto:cye@fudan.edu.cn">cye@fudan.edu.cn</a></p>
+    </div>
   </div>
 </header>
 
 <!-- ============================================================
-     研究方向 Research
-     修改指南：复制一个 <div class="research-card"> 块即可添加新方向
+     研究方向
      ============================================================ -->
 <section id="research" class="section">
   <div class="container">
     <h2 class="section-title" data-zh="研究方向" data-en="Research Directions">研究方向</h2>
-    <div class="research-grid">
 
-      <div class="research-card">
-        <div class="card-icon icon-blue">&#9881;</div>
-        <h3 data-zh="治理科学" data-en="Governance Science">治理科学</h3>
-        <p data-zh="探索多尺度、多主体的治理机制与实践路径" data-en="Exploring multi-scale, multi-actor governance mechanisms and pathways">探索多尺度、多主体的治理机制与实践路径</p>
-        <div class="tags">
-          <span class="tag" data-zh="城乡治理" data-en="Urban-rural governance">城乡治理</span>
-          <span class="tag" data-zh="气候治理" data-en="Climate governance">气候治理</span>
-          <span class="tag" data-zh="数字化治理" data-en="Digital governance">数字化治理</span>
-        </div>
-      </div>
-
-      <div class="research-card">
-        <div class="card-icon icon-green">&#9752;</div>
-        <h3 data-zh="可持续科学" data-en="Sustainability Science">可持续科学</h3>
-        <p data-zh="关注生态文明建设与环境治理的理论和实践" data-en="Theory and practice of ecological civilization and environmental governance">关注生态文明建设与环境治理的理论和实践</p>
-        <div class="tags">
-          <span class="tag" data-zh="生态文明" data-en="Ecological civilization">生态文明</span>
-          <span class="tag" data-zh="环境治理" data-en="Environmental governance">环境治理</span>
-        </div>
-      </div>
-
-      <div class="research-card">
-        <div class="card-icon icon-purple">&#127760;</div>
-        <h3 data-zh="地理学思想与文化地理" data-en="Geographic Thought &amp; Cultural Geography">地理学思想与文化地理</h3>
-        <p data-zh="地理学思想史、文化空间与人地关系的哲学反思" data-en="History of geographic thought, cultural space, and philosophical reflections on human-environment relations">地理学思想史、文化空间与人地关系的哲学反思</p>
-        <div class="tags">
-          <span class="tag" data-zh="地理学思想" data-en="Geographic thought">地理学思想</span>
-          <span class="tag" data-zh="文化地理" data-en="Cultural geography">文化地理</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     团队成员 Team
-     修改指南：
-     - 复制一个 <div class="member-card"> 块即可添加新成员
-     - 修改 src="..." 为成员头像图片路径（放在 images/ 文件夹中）
-     - 如果没有照片，使用 <div class="avatar-placeholder">姓</div>
-     ============================================================ -->
-<section id="team" class="section section-alt">
-  <div class="container">
-    <h2 class="section-title" data-zh="团队成员" data-en="Team">团队成员</h2>
-
-    <!-- 导师 PI -->
-    <h3 class="team-group" data-zh="导师" data-en="Principal Investigator">导师</h3>
-    <div class="team-grid">
-      <div class="member-card">
-        <div class="avatar-placeholder">叶</div>
-        <div class="member-name">叶超</div>
-        <div class="member-name-en">Ye Chao</div>
-        <div class="member-role" data-zh="教授、博士生导师" data-en="Professor">教授、博士生导师</div>
-        <div class="member-interests" data-zh="治理科学 · 可持续科学 · 地理学思想" data-en="Governance · Sustainability · Geographic Thought">治理科学 · 可持续科学 · 地理学思想</div>
+    <div class="research-item">
+      <h3 data-zh="治理科学" data-en="Governance Science">治理科学</h3>
+      <p data-zh="探索多尺度、多主体的治理机制与实践路径，涵盖城乡治理、气候治理与数字化治理三大核心领域。研究关注制度设计、政策创新与空间治理的交叉议题。" data-en="Exploring multi-scale, multi-actor governance mechanisms and pathways, covering urban-rural governance, climate governance, and digital governance. Research focuses on institutional design, policy innovation, and spatial governance.">探索多尺度、多主体的治理机制与实践路径，涵盖城乡治理、气候治理与数字化治理三大核心领域。研究关注制度设计、政策创新与空间治理的交叉议题。</p>
+      <div class="tags">
+        <span data-zh="城乡治理" data-en="Urban-rural governance">城乡治理</span>
+        <span data-zh="气候治理" data-en="Climate governance">气候治理</span>
+        <span data-zh="数字化治理" data-en="Digital governance">数字化治理</span>
       </div>
     </div>
 
-    <!-- 博士研究生 PhD Students -->
-    <h3 class="team-group" data-zh="博士研究生" data-en="PhD Students">博士研究生</h3>
-    <div class="team-grid">
-
-      <!-- === 复制下面这个块来添加新的博士生 === -->
-      <div class="member-card">
-        <div class="avatar-placeholder">博</div>
-        <div class="member-name">博士生姓名</div>
-        <div class="member-name-en">Name in English</div>
-        <div class="member-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
-        <div class="member-interests" data-zh="研究兴趣" data-en="Research interests">研究兴趣</div>
+    <div class="research-item">
+      <h3 data-zh="可持续科学" data-en="Sustainability Science">可持续科学</h3>
+      <p data-zh="关注生态文明建设与环境治理的理论和实践，从制度、空间与社会多维视角探索人与自然和谐共生的路径。" data-en="Theory and practice of ecological civilization and environmental governance, exploring pathways toward harmonious coexistence between humanity and nature from institutional, spatial, and social perspectives.">关注生态文明建设与环境治理的理论和实践，从制度、空间与社会多维视角探索人与自然和谐共生的路径。</p>
+      <div class="tags">
+        <span data-zh="生态文明" data-en="Ecological civilization">生态文明</span>
+        <span data-zh="环境治理" data-en="Environmental governance">环境治理</span>
       </div>
-      <!-- === 复制到这里结束 === -->
-
     </div>
 
-    <!-- 硕士研究生 Master Students -->
-    <h3 class="team-group" data-zh="硕士研究生" data-en="Master Students">硕士研究生</h3>
-    <div class="team-grid">
-
-      <div class="member-card">
-        <div class="avatar-placeholder">硕</div>
-        <div class="member-name">硕士生姓名</div>
-        <div class="member-name-en">Name in English</div>
-        <div class="member-role" data-zh="硕士研究生" data-en="Master Student">硕士研究生</div>
-        <div class="member-interests" data-zh="研究兴趣" data-en="Research interests">研究兴趣</div>
+    <div class="research-item">
+      <h3 data-zh="地理学思想与文化地理" data-en="Geographic Thought &amp; Cultural Geography">地理学思想与文化地理</h3>
+      <p data-zh="回溯地理学的思想脉络，从学科史和哲学层面反思人地关系的核心命题，探索文化空间生产与地方认同。" data-en="Tracing the intellectual traditions of geography, reflecting on the core propositions of human-environment relations from disciplinary and philosophical perspectives, exploring cultural space production and place identity.">回溯地理学的思想脉络，从学科史和哲学层面反思人地关系的核心命题，探索文化空间生产与地方认同。</p>
+      <div class="tags">
+        <span data-zh="地理学思想" data-en="Geographic thought">地理学思想</span>
+        <span data-zh="文化地理" data-en="Cultural geography">文化地理</span>
       </div>
-
-    </div>
-
-    <!-- 已毕业 Alumni -->
-    <!--
-    <h3 class="team-group" data-zh="已毕业" data-en="Alumni">已毕业</h3>
-    <div class="team-grid">
-      去掉这段注释并添加成员卡片即可显示已毕业成员
-    </div>
-    -->
-
-  </div>
-</section>
-
-<!-- ============================================================
-     学术成果 Publications
-     修改指南：复制一个 <div class="pub-item"> 块即可添加新论文
-     ============================================================ -->
-<section id="publications" class="section">
-  <div class="container">
-    <h2 class="section-title" data-zh="学术成果" data-en="Publications">学术成果</h2>
-
-    <!-- 按年份分组 -->
-    <div class="pub-year">2026</div>
-    <div class="pub-list">
-
-      <!-- === 复制下面这个块来添加新论文 === -->
-      <div class="pub-item">
-        <div class="pub-title">论文标题 / Paper Title</div>
-        <div class="pub-authors">作者1, 作者2, 叶超</div>
-        <div class="pub-venue"><em>期刊名称</em>, 2026</div>
-        <!-- 可选：添加链接 -->
-        <!-- <div class="pub-links"><a href="PDF链接">PDF</a> <a href="DOI链接">DOI</a></div> -->
-      </div>
-      <!-- === 复制到这里结束 === -->
-
-    </div>
-
-    <div class="pub-year">2025</div>
-    <div class="pub-list">
-
-      <div class="pub-item">
-        <div class="pub-title">论文标题 / Paper Title</div>
-        <div class="pub-authors">作者1, 叶超</div>
-        <div class="pub-venue"><em>期刊名称</em>, 2025</div>
-      </div>
-
     </div>
 
   </div>
 </section>
 
 <!-- ============================================================
-     新闻动态 News
-     修改指南：复制一个 <div class="news-item"> 块即可添加新动态
+     动态
      ============================================================ -->
 <section id="news" class="section section-alt">
   <div class="container">
-    <h2 class="section-title" data-zh="新闻动态" data-en="News">新闻动态</h2>
+    <h2 class="section-title" data-zh="动态" data-en="News">动态</h2>
     <div class="news-list">
-
-      <!-- === 复制下面这个块来添加新动态 === -->
-      <div class="news-item">
-        <div class="news-date">2026.06</div>
-        <div class="news-text" data-zh="课题组网站正式上线。" data-en="Our research group website is now live.">课题组网站正式上线。</div>
+      <div class="news-row">
+        <time>2026.06</time>
+        <p data-zh="课题组网站正式上线。" data-en="Our research group website is now live.">课题组网站正式上线。</p>
       </div>
-      <!-- === 复制到这里结束 === -->
-
-      <div class="news-item">
-        <div class="news-date">2026.05</div>
-        <div class="news-text" data-zh="欢迎新成员加入课题组！" data-en="Welcome new members joining the group!">欢迎新成员加入课题组！</div>
+      <div class="news-row">
+        <time>2026.05</time>
+        <p data-zh="欢迎新成员加入课题组！" data-en="Welcome new members joining the group!">欢迎新成员加入课题组！</p>
       </div>
-
-      <div class="news-item">
-        <div class="news-date">2025.09</div>
-        <div class="news-text" data-zh="叶超教授在治理科学年度论坛发表主题演讲。" data-en="Prof. Ye Chao delivered a keynote at the Annual Governance Science Forum.">叶超教授在治理科学年度论坛发表主题演讲。</div>
+      <div class="news-row">
+        <time>2025.09</time>
+        <p data-zh="叶超教授在治理科学年度论坛发表主题演讲。" data-en="Prof. Ye Chao delivered a keynote at the Annual Governance Science Forum.">叶超教授在治理科学年度论坛发表主题演讲。</p>
       </div>
-
     </div>
   </div>
 </section>
 
 <!-- ============================================================
-     联系方式 Contact
+     研究团队
+     修改指南：
+     - 复制一个 <div class="member-card" onclick="openMember(this)" ...>
+     - 修改所有 data-* 属性中的内容
+     - 点击成员卡片会弹出详情窗口
+     ============================================================ -->
+<section id="team" class="section">
+  <div class="container">
+    <h2 class="section-title" data-zh="研究团队" data-en="Team">研究团队</h2>
+
+    <h3 class="group-label" data-zh="导师" data-en="Principal Investigator">导师</h3>
+    <div class="team-grid">
+      <div class="member-card" onclick="openMember(this)"
+        data-name="叶超" data-name-en="Ye Chao"
+        data-role="教授、博士生导师" data-role-en="Professor"
+        data-bio="复旦大学国际关系与公共事务学院教授、博士生导师。主要从事治理科学（城乡治理、气候治理、数字化治理）、可持续科学（生态文明、环境治理）、地理学思想与文化地理等领域的研究。"
+        data-bio-en="Professor at the School of International Relations and Public Affairs, Fudan University. Research focuses on governance science, sustainability science, and geographic thought and cultural geography."
+        data-interests="治理科学 · 可持续科学 · 地理学思想与文化地理"
+        data-interests-en="Governance Science · Sustainability Science · Geographic Thought"
+        data-email="cye@fudan.edu.cn">
+        <div class="member-avatar">叶</div>
+        <div class="member-info">
+          <div class="m-name">叶超</div>
+          <div class="m-name-en">Ye Chao</div>
+          <div class="m-role" data-zh="教授、博士生导师" data-en="Professor">教授、博士生导师</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="group-label" data-zh="博士研究生" data-en="PhD Students">博士研究生</h3>
+    <div class="team-grid">
+      <!-- === 复制此块添加新博士生 === -->
+      <div class="member-card" onclick="openMember(this)"
+        data-name="博士生A" data-name-en="PhD Student A"
+        data-role="博士研究生" data-role-en="PhD Student"
+        data-bio="在此填写详细介绍。" data-bio-en="Detailed bio here."
+        data-interests="研究兴趣1 · 研究兴趣2" data-interests-en="Interest 1 · Interest 2"
+        data-email="student@fudan.edu.cn">
+        <div class="member-avatar">A</div>
+        <div class="member-info">
+          <div class="m-name">博士生A</div>
+          <div class="m-name-en">PhD Student A</div>
+          <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
+        </div>
+      </div>
+      <!-- === 模板结束 === -->
+    </div>
+
+    <h3 class="group-label" data-zh="硕士研究生" data-en="Master Students">硕士研究生</h3>
+    <div class="team-grid">
+      <div class="member-card" onclick="openMember(this)"
+        data-name="硕士生A" data-name-en="MA Student A"
+        data-role="硕士研究生" data-role-en="Master Student"
+        data-bio="在此填写详细介绍。" data-bio-en="Detailed bio here."
+        data-interests="研究兴趣" data-interests-en="Research interests"
+        data-email="student@fudan.edu.cn">
+        <div class="member-avatar">A</div>
+        <div class="member-info">
+          <div class="m-name">硕士生A</div>
+          <div class="m-name-en">MA Student A</div>
+          <div class="m-role" data-zh="硕士研究生" data-en="Master Student">硕士研究生</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     成员详情弹窗
+     ============================================================ -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeMember()">
+  <div class="modal" onclick="event.stopPropagation()">
+    <button class="modal-close" onclick="closeMember()">&times;</button>
+    <div class="modal-header">
+      <div class="modal-avatar" id="modal-avatar"></div>
+      <div>
+        <h2 id="modal-name"></h2>
+        <p class="modal-role" id="modal-role"></p>
+        <p class="modal-email" id="modal-email"></p>
+      </div>
+    </div>
+    <div class="modal-section">
+      <h4 id="modal-int-label" data-zh="研究兴趣" data-en="Research Interests">研究兴趣</h4>
+      <p id="modal-interests"></p>
+    </div>
+    <div class="modal-section">
+      <h4 id="modal-bio-label" data-zh="简介" data-en="Biography">简介</h4>
+      <p id="modal-bio"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     学术成果
+     ============================================================ -->
+<section id="publications" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title" data-zh="学术成果" data-en="Publications">学术成果</h2>
+
+    <h3 class="pub-year">2026</h3>
+
+    <!-- === 复制此块添加新论文 === -->
+    <div class="pub">
+      <span class="pub-title">论文标题 Paper Title</span><br>
+      <span class="pub-authors">作者1, 作者2, 叶超</span><br>
+      <span class="pub-venue"><em>期刊名称</em>, 2026.</span>
+    </div>
+    <!-- === 模板结束 === -->
+
+    <h3 class="pub-year">2025</h3>
+
+    <div class="pub">
+      <span class="pub-title">论文标题 Paper Title</span><br>
+      <span class="pub-authors">作者1, 叶超</span><br>
+      <span class="pub-venue"><em>期刊名称</em>, 2025.</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     联系
      ============================================================ -->
 <section id="contact" class="section">
   <div class="container">
-    <h2 class="section-title" data-zh="联系我们" data-en="Contact Us">联系我们</h2>
+    <h2 class="section-title" data-zh="联系" data-en="Contact">联系</h2>
     <div class="contact-grid">
-      <div class="contact-item">
-        <div class="contact-icon">&#128205;</div>
-        <div>
-          <div data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
-          <div data-zh="国际关系与公共事务学院" data-en="School of International Relations and Public Affairs">国际关系与公共事务学院</div>
-          <div data-zh="上海市杨浦区邯郸路220号" data-en="220 Handan Road, Yangpu, Shanghai">上海市杨浦区邯郸路220号</div>
-        </div>
+      <div>
+        <h3 data-zh="地址" data-en="Address">地址</h3>
+        <p data-zh="复旦大学 国际关系与公共事务学院" data-en="School of International Relations and Public Affairs, Fudan University">复旦大学 国际关系与公共事务学院</p>
+        <p data-zh="上海市杨浦区邯郸路220号" data-en="220 Handan Road, Yangpu District, Shanghai">上海市杨浦区邯郸路220号</p>
       </div>
-      <div class="contact-item">
-        <div class="contact-icon">&#9993;</div>
-        <div>
-          <!-- 修改为实际邮箱 -->
-          <div>email@fudan.edu.cn</div>
-        </div>
+      <div>
+        <h3 data-zh="邮箱" data-en="Email">邮箱</h3>
+        <p><a href="mailto:cye@fudan.edu.cn">cye@fudan.edu.cn</a></p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     页脚 Footer
-     ============================================================ -->
 <footer class="footer">
   <div class="container">
-    <p>&copy; 2026 <span data-zh="叶超课题组" data-en="Ye Chao Research Group">叶超课题组</span>. All rights reserved.</p>
+    <p>&copy; 2026 <span data-zh="叶超课题组" data-en="Ye Chao's Lab">叶超课题组</span></p>
   </div>
 </footer>
 
-<!-- ============================================================
-     中英文切换脚本 Language Toggle
-     ============================================================ -->
 <script>
-let currentLang = 'zh';
-
-function toggleLang() {
-  currentLang = currentLang === 'zh' ? 'en' : 'zh';
-  document.getElementById('lang-label').textContent = currentLang === 'zh' ? 'EN' : '中文';
-  document.documentElement.lang = currentLang === 'zh' ? 'zh-CN' : 'en';
-
-  document.querySelectorAll('[data-zh]').forEach(function(el) {
-    el.textContent = el.getAttribute('data-' + currentLang);
+var currentLang='zh';
+function toggleLang(){
+  currentLang=currentLang==='zh'?'en':'zh';
+  document.getElementById('lang-label').textContent=currentLang==='zh'?'EN':'中文';
+  document.documentElement.lang=currentLang==='zh'?'zh-CN':'en';
+  document.querySelectorAll('[data-zh]').forEach(function(el){
+    el.textContent=el.getAttribute('data-'+currentLang);
   });
 }
+function toggleMenu(){document.getElementById('nav-links').classList.toggle('open');}
 
-// 导航栏滚动效果
-window.addEventListener('scroll', function() {
-  var navbar = document.getElementById('navbar');
-  if (window.scrollY > 10) {
-    navbar.classList.add('scrolled');
-  } else {
-    navbar.classList.remove('scrolled');
-  }
+function openMember(c){
+  var l=currentLang,s=l==='en'?'-en':'';
+  document.getElementById('modal-name').textContent=c.getAttribute('data-name'+s);
+  document.getElementById('modal-role').textContent=c.getAttribute('data-role'+s);
+  document.getElementById('modal-bio').textContent=c.getAttribute('data-bio'+s);
+  document.getElementById('modal-interests').textContent=c.getAttribute('data-interests'+s);
+  var em=c.getAttribute('data-email');
+  document.getElementById('modal-email').innerHTML='<a href="mailto:'+em+'">'+em+'</a>';
+  var av=c.querySelector('.member-avatar');
+  var ma=document.getElementById('modal-avatar');
+  if(av.tagName==='IMG'){ma.innerHTML='<img src="'+av.src+'" alt="">';ma.style.fontSize='0';}
+  else{ma.textContent=av.textContent;ma.style.fontSize='';}
+  document.getElementById('modal-int-label').textContent=l==='en'?'Research Interests':'研究兴趣';
+  document.getElementById('modal-bio-label').textContent=l==='en'?'Biography':'简介';
+  document.getElementById('modal-overlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeMember(){
+  document.getElementById('modal-overlay').classList.remove('open');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMember();});
+window.addEventListener('scroll',function(){
+  document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>10);
 });
-
-// 平滑滚动
-document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
-  anchor.addEventListener('click', function(e) {
+document.querySelectorAll('a[href^="#"]').forEach(function(a){
+  a.addEventListener('click',function(e){
     e.preventDefault();
-    var target = document.querySelector(this.getAttribute('href'));
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    var t=document.querySelector(this.getAttribute('href'));
+    if(t)t.scrollIntoView({behavior:'smooth',block:'start'});
+    document.getElementById('nav-links').classList.remove('open');
   });
 });
 </script>
-
 </body>
 </html>
