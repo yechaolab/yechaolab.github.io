@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ye-2026-example",
+    "title": "论文中文标题（如有）",
+    "title_en": "Paper English Title",
+    "authors": ["ye-chao", "student-a"],
+    "authors_display": "叶超, 学生A",
+    "authors_display_en": "Ye Chao, Student A",
+    "journal": "Nature Cities",
+    "year": 2026,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": "",
+    "abstract": "",
+    "abstract_en": ""
+  },
+  {
+    "id": "ye-2025-example",
+    "title": "另一篇论文标题",
+    "title_en": "Another Paper Title",
+    "authors": ["ye-chao"],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye Chao",
+    "journal": "某期刊",
+    "year": 2025,
+    "direction": "sustainability",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "abstract": "",
+    "abstract_en": ""
+  }
+]
