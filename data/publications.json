@@ -3,39 +3,82 @@
     "id": "ye-2026-climate",
     "title": "Climate and society as one: a (de)coupling future for escalating climate challenges",
     "title_en": "Climate and society as one: a (de)coupling future for escalating climate challenges",
-    "authors": ["ye-chao", "gao-lei", "zhuang-liang", "li-yonghe"],
-    "authors_display": "Chao Ye, Lei Gao, Liang Zhuang, Yonghe Li, Jessica Fanzo, Michael E. Meadows, Xu Tang, Alexander Baklanov, Yingmei Wu",
-    "authors_display_en": "Chao Ye, Lei Gao, Liang Zhuang, Yonghe Li, Jessica Fanzo, Michael E. Meadows, Xu Tang, Alexander Baklanov, Yingmei Wu",
+    "authors": [
+      "ye-chao",
+      "gao-lei",
+      "zhuang-liang",
+      "li-yonghe"
+    ],
+    "authors_display": "Ye C., Gao L., Zhuang L., Li Y., Fanzo J., Meadows M.E., Tang X., Baklanov A., Wu Y.",
+    "authors_display_en": "Ye C., Gao L., Zhuang L., Li Y., Fanzo J., Meadows M.E., Tang X., Baklanov A., Wu Y.",
     "journal": "Science Bulletin",
     "year": 2026,
     "direction": "governance",
     "language": "en",
     "doi": "10.1016/j.scib.2026.03.026",
-    "pdf": "",
-    "abstract": "",
-    "abstract_en": ""
+    "pdf": ""
+  },
+  {
+    "id": "li-2026-carbon",
+    "title": "Assessing the divergent impacts of urban shrinkage on carbon emissions: evidence from Chinese cities",
+    "title_en": "Assessing the divergent impacts of urban shrinkage on carbon emissions: evidence from Chinese cities",
+    "authors": [
+      "li-yonghe",
+      "ye-chao",
+      "zhuang-liang"
+    ],
+    "authors_display": "Li Y., Ye C., Zhuang L., Ciais P.",
+    "authors_display_en": "Li Y., Ye C., Zhuang L., Ciais P.",
+    "journal": "Landscape and Urban Planning",
+    "year": 2026,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2025-governance-spatial",
+    "title": "Governance and Spatial Planning for Sustainable Urban and Rural Development",
+    "title_en": "Governance and Spatial Planning for Sustainable Urban and Rural Development",
+    "authors": [
+      "ye-chao",
+      "zhuang-liang"
+    ],
+    "authors_display": "Ye C., He J., Chigbu U.E., Deng Z., Zhuang L.",
+    "authors_display_en": "Ye C., He J., Chigbu U.E., Deng Z., Zhuang L.",
+    "journal": "Land",
+    "year": 2025,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
   },
   {
     "id": "gao-2025-humanistic",
     "title": "人文主义地理学与行为地理学的方法论透视：段义孚与哈格斯特朗的比较",
     "title_en": "A Methodological Perspective on Humanistic Geography and Behavioral Geography: A Comparison of Yi-Fu Tuan and Hägerstrand",
-    "authors": ["gao-lei", "ye-chao"],
+    "authors": [
+      "gao-lei",
+      "ye-chao"
+    ],
     "authors_display": "高磊, 叶超",
-    "authors_display_en": "Gao Lei, Ye Chao",
+    "authors_display_en": "Gao L., Ye C.",
     "journal": "地理科学进展",
     "year": 2025,
     "direction": "geographic-thought",
     "language": "zh",
     "doi": "10.18306/dlkxjz.2025.09.016",
-    "pdf": "",
-    "abstract": "",
-    "abstract_en": ""
+    "pdf": ""
   },
   {
     "id": "gao-2024-shrinking",
     "title": "Are Medium-Sized Cities in China Shrinking from 2010 to 2020? An Empirical Analysis with a Multi-Dimensional Model",
     "title_en": "Are Medium-Sized Cities in China Shrinking from 2010 to 2020? An Empirical Analysis with a Multi-Dimensional Model",
-    "authors": ["gao-lei", "ye-chao", "zhuang-liang"],
+    "authors": [
+      "gao-lei",
+      "ye-chao",
+      "zhuang-liang"
+    ],
     "authors_display": "Gao L., Ye C., Zhuang L.",
     "authors_display_en": "Gao L., Ye C., Zhuang L.",
     "journal": "Land",
@@ -43,8 +86,450 @@
     "direction": "governance",
     "language": "en",
     "doi": "10.3390/land13111865",
-    "pdf": "papers/gao-2024-shrinking.pdf",
-    "abstract": "",
-    "abstract_en": ""
+    "pdf": "papers/gao-2024-shrinking.pdf"
+  },
+  {
+    "id": "zhuang-2023-spatial-production",
+    "title": "Spatial production in the process of rapid urbanisation and ageing: A case study of the new type of community in suburban Shanghai",
+    "title_en": "Spatial production in the process of rapid urbanisation and ageing: A case study of the new type of community in suburban Shanghai",
+    "authors": [
+      "zhuang-liang",
+      "ye-chao"
+    ],
+    "authors_display": "Zhuang L., Ye C.",
+    "authors_display_en": "Zhuang L., Ye C.",
+    "journal": "Habitat International",
+    "year": 2023,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhuang-2023-sprawl",
+    "title": "More sprawl than agglomeration: The multi-scale spatial patterns and industrial characteristics of varied development zones in China",
+    "title_en": "More sprawl than agglomeration: The multi-scale spatial patterns and industrial characteristics of varied development zones in China",
+    "authors": [
+      "zhuang-liang",
+      "ye-chao"
+    ],
+    "authors_display": "Zhuang L., Ye C.",
+    "authors_display_en": "Zhuang L., Ye C.",
+    "journal": "Cities",
+    "year": 2023,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2022-healthy-liveable",
+    "title": "Toward healthy and liveable cities: A new framework linking public health to urbanization",
+    "title_en": "Toward healthy and liveable cities: A new framework linking public health to urbanization",
+    "authors": [
+      "ye-chao",
+      "zhuang-liang"
+    ],
+    "authors_display": "Ye C., Schröder P., Yang D., Chen M., Cui C., Zhuang L.",
+    "authors_display_en": "Ye C., Schröder P., Yang D., Chen M., Cui C., Zhuang L.",
+    "journal": "Environmental Research Letters",
+    "year": 2022,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhuang-2020-imbalance",
+    "title": "Changing imbalance: Spatial production of national high-tech industrial development zones in China (1988–2018)",
+    "title_en": "Changing imbalance: Spatial production of national high-tech industrial development zones in China (1988–2018)",
+    "authors": [
+      "zhuang-liang",
+      "ye-chao"
+    ],
+    "authors_display": "Zhuang L., Ye C.",
+    "authors_display_en": "Zhuang L., Ye C.",
+    "journal": "Land Use Policy",
+    "year": 2020,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhuang-2020-bibliometric",
+    "title": "Intertwining globality and locality: Bibliometric analysis based on the top geography annual conferences in America and China",
+    "title_en": "Intertwining globality and locality: Bibliometric analysis based on the top geography annual conferences in America and China",
+    "authors": [
+      "zhuang-liang",
+      "ye-chao"
+    ],
+    "authors_display": "Zhuang L., Ye C., Lieske S.",
+    "authors_display_en": "Zhuang L., Ye C., Lieske S.",
+    "journal": "Scientometrics",
+    "year": 2020,
+    "direction": "geographic-thought",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2020-belt-road",
+    "title": "A comparison and case analysis between domestic and overseas industrial parks of China since the Belt and Road Initiative",
+    "title_en": "A comparison and case analysis between domestic and overseas industrial parks of China since the Belt and Road Initiative",
+    "authors": [
+      "ye-chao",
+      "zhuang-liang"
+    ],
+    "authors_display": "Ye C., Li S., Zhuang L., Zhu X.",
+    "authors_display_en": "Ye C., Li S., Zhuang L., Zhu X.",
+    "journal": "Journal of Geographical Sciences",
+    "year": 2020,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "hu-2020-dispersion",
+    "title": "Towards more dispersion: The geographical evolution of China's development zones",
+    "title_en": "Towards more dispersion: The geographical evolution of China's development zones",
+    "authors": [
+      "zhuang-liang"
+    ],
+    "authors_display": "Hu S., Zeng G., Zhuang L., Liu H.",
+    "authors_display_en": "Hu S., Zeng G., Zhuang L., Liu H.",
+    "journal": "Regional Studies Regional Science",
+    "year": 2020,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhuang-2019-dialectic",
+    "title": "Spatial production and spatial dialectic: Evidence from the New Urban Districts in China",
+    "title_en": "Spatial production and spatial dialectic: Evidence from the New Urban Districts in China",
+    "authors": [
+      "zhuang-liang",
+      "ye-chao"
+    ],
+    "authors_display": "Zhuang L., Ye C., Hu S.",
+    "authors_display_en": "Zhuang L., Ye C., Hu S.",
+    "journal": "Journal of Geographical Sciences",
+    "year": 2019,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhuang-2018-disorder",
+    "title": "Disorder or Reorder? The Spatial Production of State-Level New Areas in China",
+    "title_en": "Disorder or Reorder? The Spatial Production of State-Level New Areas in China",
+    "authors": [
+      "zhuang-liang",
+      "ye-chao"
+    ],
+    "authors_display": "Zhuang L., Ye C.",
+    "authors_display_en": "Zhuang L., Ye C.",
+    "journal": "Sustainability",
+    "year": 2018,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhuang-2026-urbanization-logic",
+    "title": "人口高质量发展视域下新型城镇化的逻辑与路径",
+    "title_en": "Logic and Pathways of New-type Urbanization from the Perspective of High-quality Population Development",
+    "authors": [
+      "zhuang-liang"
+    ],
+    "authors_display": "庄良, 马卫",
+    "authors_display_en": "Zhuang L., Ma W.",
+    "journal": "河南社会科学",
+    "year": 2026,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhuang-2026-digital-humanities",
+    "title": "数字人文视角下空间表达的新路径",
+    "title_en": "New Pathways of Spatial Expression from the Perspective of Digital Humanities",
+    "authors": [
+      "zhuang-liang",
+      "ye-chao"
+    ],
+    "authors_display": "庄良, 叶超",
+    "authors_display_en": "Zhuang L., Ye C.",
+    "journal": "热带地理",
+    "year": 2026,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2021-yangtze-delta",
+    "title": "长三角地区城乡融合发展的时空格局",
+    "title_en": "Spatiotemporal Patterns of Urban-Rural Integration in the Yangtze River Delta",
+    "authors": [
+      "ye-chao",
+      "zhuang-liang"
+    ],
+    "authors_display": "叶超, 庄良, 吴佩瑾",
+    "authors_display_en": "Ye C., Zhuang L., Wu P.",
+    "journal": "苏州大学学报(哲学社会科学版)",
+    "year": 2021,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhuang-2020-museum",
+    "title": "上海市博物馆时空演变特征及其影响因素",
+    "title_en": "Spatiotemporal Evolution and Influencing Factors of Museums in Shanghai",
+    "authors": [
+      "zhuang-liang"
+    ],
+    "authors_display": "庄良, 田娜, 赵彪",
+    "authors_display_en": "Zhuang L., Tian N., Zhao B.",
+    "journal": "热带地理",
+    "year": 2020,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhuang-2019-new-districts",
+    "title": "中国城镇化进程中新区的空间生产及其演化逻辑",
+    "title_en": "Spatial Production and Evolutionary Logic of New Districts in China's Urbanization",
+    "authors": [
+      "zhuang-liang",
+      "ye-chao"
+    ],
+    "authors_display": "庄良, 叶超, 马卫, 赵彪, 胡森林",
+    "authors_display_en": "Zhuang L., Ye C., Ma W., Zhao B., Hu S.",
+    "journal": "地理学报",
+    "year": 2019,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhuang-2016-gansu",
+    "title": "甘肃省产业结构的时空分异及其动力机制研究",
+    "title_en": "Spatiotemporal Differentiation and Driving Mechanisms of Industrial Structure in Gansu Province",
+    "authors": [
+      "zhuang-liang"
+    ],
+    "authors_display": "庄良, 王新敏, 马卫, 尚正永",
+    "authors_display_en": "Zhuang L., Wang X., Ma W., Shang Z.",
+    "journal": "干旱区地理",
+    "year": 2016,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhao-2023-prefecture",
+    "title": "改革开放以来中国地级市设置的空间特征及存在问题",
+    "title_en": "Spatial Characteristics and Issues of Prefecture-level City Establishment in China since Reform and Opening Up",
+    "authors": [
+      "zhuang-liang"
+    ],
+    "authors_display": "赵彪, 庄良, 王开泳",
+    "authors_display_en": "Zhao B., Zhuang L., Wang K.",
+    "journal": "热带地理",
+    "year": 2023,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2018-global-local",
+    "title": "在变动的全球与地方之间",
+    "title_en": "Between the Changing Global and Local",
+    "authors": [
+      "ye-chao",
+      "zhuang-liang"
+    ],
+    "authors_display": "叶超, 庄良",
+    "authors_display_en": "Ye C., Zhuang L.",
+    "journal": "人文地理",
+    "year": 2018,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "bai-2020-innovation",
+    "title": "基于细分行业的安徽省创新型企业集聚研究",
+    "title_en": "Research on Innovation Enterprise Agglomeration in Anhui Province Based on Sub-industries",
+    "authors": [
+      "zhuang-liang"
+    ],
+    "authors_display": "白如山, 胡森林, 庄良, 刘岩, 刘恺恺, 黄鹏娜",
+    "authors_display_en": "Bai R., Hu S., Zhuang L., Liu Y., Liu K., Huang P.",
+    "journal": "世界地理研究",
+    "year": 2020,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhao-2017-county",
+    "title": "近年来中国县级行政区划空间变动研究",
+    "title_en": "Research on Spatial Changes of County-level Administrative Divisions in China",
+    "authors": [
+      "zhuang-liang"
+    ],
+    "authors_display": "赵彪, 周成, 庄良",
+    "authors_display_en": "Zhao B., Zhou C., Zhuang L.",
+    "journal": "干旱区资源与环境",
+    "year": 2017,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "hu-2021-devzone-agglomeration",
+    "title": "中国省级以上开发区产业集聚的多尺度分析",
+    "title_en": "Multi-scale Analysis of Industrial Agglomeration in National-level Development Zones in China",
+    "authors": [
+      "zhuang-liang"
+    ],
+    "authors_display": "胡森林, 曾刚, 庄良, 刘海猛",
+    "authors_display_en": "Hu S., Zeng G., Zhuang L., Liu H.",
+    "journal": "地理科学",
+    "year": 2021,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "hu-2020-yangtze-industry",
+    "title": "长江经济带产业的集聚与演化——基于开发区的视角",
+    "title_en": "Industrial Agglomeration and Evolution in the Yangtze River Economic Belt: A Development Zone Perspective",
+    "authors": [
+      "zhuang-liang"
+    ],
+    "authors_display": "胡森林, 曾刚, 滕堂伟, 庄良, 刘海猛, 孙蓉",
+    "authors_display_en": "Hu S., Zeng G., Teng T., Zhuang L., Liu H., Sun R.",
+    "journal": "地理研究",
+    "year": 2020,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "hu-2019-devzone-distribution",
+    "title": "中国省级以上开发区空间分布特征及影响因素",
+    "title_en": "Spatial Distribution Characteristics and Influencing Factors of National-level Development Zones in China",
+    "authors": [
+      "zhuang-liang"
+    ],
+    "authors_display": "胡森林, 周亮, 滕堂伟, 庄良",
+    "authors_display_en": "Hu S., Zhou L., Teng T., Zhuang L.",
+    "journal": "经济地理",
+    "year": 2019,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhuang-2025-book",
+    "title": "中国开发区演变的过程、格局与机制",
+    "title_en": "Process, Pattern and Mechanism of the Evolution of China's Development Zones",
+    "authors": [
+      "zhuang-liang"
+    ],
+    "authors_display": "庄良",
+    "authors_display_en": "Zhuang L.",
+    "journal": "北京: 商务印书馆",
+    "year": 2025,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "ye-2023-book-springer",
+    "title": "Urbanization and Production of Space: A Multi-scalar Empirical Study Based on China's Cases",
+    "title_en": "Urbanization and Production of Space: A Multi-scalar Empirical Study Based on China's Cases",
+    "authors": [
+      "ye-chao",
+      "zhuang-liang"
+    ],
+    "authors_display": "Ye C., Zhuang L.",
+    "authors_display_en": "Ye C., Zhuang L.",
+    "journal": "Singapore: Springer Nature",
+    "year": 2023,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "zhuang-2023-chapter-devzone",
+    "title": "开发区与行政区的叠合问题及其融合路径：以长三角地区为例",
+    "title_en": "Overlapping Issues and Integration Pathways of Development Zones and Administrative Districts: A Case Study of the Yangtze River Delta",
+    "authors": ["zhuang-liang", "ye-chao"],
+    "authors_display": "庄良, 叶超",
+    "authors_display_en": "Zhuang L., Ye C.",
+    "journal": "载于孙斌栋主编《国家空间治理与行政区划2：中心城市治理》, 南京: 东南大学出版社",
+    "year": 2023,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "ye-2021-chapter-suburb",
+    "title": "郊区新城建设",
+    "title_en": "Suburban New Town Construction",
+    "authors": ["ye-chao", "zhuang-liang"],
+    "authors_display": "叶超, 塔娜, 庄良, 赵江南",
+    "authors_display_en": "Ye C., Ta N., Zhuang L., Zhao J.",
+    "journal": "载于周振华等主编《全球城市发展报告2020》, 上海: 格致出版社",
+    "year": 2021,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "zhuang-2026-chapter-visualization",
+    "title": "可视化分析技术",
+    "title_en": "Visualization Analysis Technology",
+    "authors": ["zhuang-liang"],
+    "authors_display": "庄良",
+    "authors_display_en": "Zhuang L.",
+    "journal": "载于曾军主编《数字人文教程》, 北京: 高等教育出版社",
+    "year": 2026,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
   }
 ]
