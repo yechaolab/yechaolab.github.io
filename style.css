@@ -101,8 +101,8 @@ a.member-card:hover{border-color:#bbb;box-shadow:0 4px 16px rgba(0,0,0,.06);}
 .no-data{color:var(--text-light);font-style:italic;}
 
 /* === 课题组横幅合照 === */
-.banner{max-width:900px;margin:56px auto 0;padding:0 28px;}
-.banner img{width:100%;height:auto;display:block;border-radius:6px;}
+.banner{width:100%;max-height:360px;overflow:hidden;margin-top:56px;}
+.banner img{width:100%;height:auto;display:block;object-fit:cover;max-height:360px;}
 .banner-placeholder{width:100%;height:200px;background:var(--bg-alt);display:flex;align-items:center;justify-content:center;color:var(--text-light);font-size:14px;border-bottom:1px solid var(--border);}
 
 /* === Join Us === */
@@ -118,6 +118,13 @@ a.member-card:hover{border-color:#bbb;box-shadow:0 4px 16px rgba(0,0,0,.06);}
 
 /* === 页脚 === */
 .footer{padding:24px 0;text-align:center;border-top:1px solid var(--border);font-size:13px;color:var(--text-light);}
+
+/* === 分页 === */
+.pagination{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:20px;padding-top:16px;border-top:1px solid var(--border);}
+.page-btn{font-size:14px;padding:6px 16px;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text-mid);cursor:pointer;font-family:var(--sans);transition:all .15s;}
+.page-btn:hover:not(:disabled){border-color:var(--blue);color:var(--blue);background:var(--blue-light);}
+.page-btn:disabled{opacity:.4;cursor:not-allowed;}
+.page-info{font-size:14px;color:var(--text-light);}
 
 /* === 子页面 Hero（团队/研究/新闻详情页通用） === */
 .page-hero{padding:96px 0 32px;border-bottom:1px solid var(--border);}

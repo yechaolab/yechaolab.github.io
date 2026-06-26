@@ -14,12 +14,16 @@ function toggleLang() {
     var val = el.getAttribute('data-' + currentLang);
     if (val) el.textContent = val;
   });
-  // 重新渲染论文列表（如果页面上有的话）
+  // Re-render dynamic content
   if (document.getElementById('pub-list')) {
-    var filter = document.getElementById('pub-list').getAttribute('data-filter') || '';
-    var filterVal = document.getElementById('pub-list').getAttribute('data-filter-value') || '';
-    var limit = parseInt(document.getElementById('pub-list').getAttribute('data-limit')) || 0;
+    var pubList = document.getElementById('pub-list');
+    var filter = pubList.getAttribute('data-filter') || '';
+    var filterVal = pubList.getAttribute('data-filter-value') || '';
+    var limit = parseInt(pubList.getAttribute('data-limit')) || 0;
     renderPubs('pub-list', filter, filterVal, limit);
+  }
+  if (document.getElementById('news-list') && allNews.length > 0) {
+    renderNews();
   }
 }
 
@@ -197,8 +201,74 @@ function copyCite(id) {
 }
 
 var base = '';
-/* --- 页面加载时自动加载论文 --- */
+var allNews = [];
+var newsPage = 1;
+var newsPerPage = 5;
+
+/* --- 加载新闻 --- */
+function loadNews(callback) {
+  fetch(base + 'data/news.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      allNews = data;
+      if (callback) callback();
+    })
+    .catch(function(err) { console.log('No news data:', err); });
+}
+
+/* --- 渲染新闻（带分页） --- */
+function renderNews() {
+  var container = document.getElementById('news-list');
+  if (!container || allNews.length === 0) return;
+
+  var total = allNews.length;
+  var totalPages = Math.ceil(total / newsPerPage);
+  var start = (newsPage - 1) * newsPerPage;
+  var items = allNews.slice(start, start + newsPerPage);
+
+  var html = '';
+  items.forEach(function(n) {
+    var title = currentLang === 'en' && n.title_en ? n.title_en : n.title;
+    if (n.url) {
+      var isExternal = n.url.indexOf('http') === 0;
+      html += '<a href="' + (isExternal ? '' : base) + n.url + '"' + (isExternal ? ' target="_blank"' : '') + ' class="news-row">';
+    } else {
+      html += '<div class="news-row">';
+    }
+    html += '<time>' + n.date + '</time>';
+    html += '<p>' + title + '</p>';
+    if (n.url) html += '<span class="arrow">&rsaquo;</span>';
+    html += n.url ? '</a>' : '</div>';
+  });
+
+  // Pagination
+  if (totalPages > 1) {
+    html += '<div class="pagination">';
+    var prevLabel = currentLang === 'en' ? '← Previous' : '← 上一页';
+    var nextLabel = currentLang === 'en' ? 'Next →' : '下一页 →';
+    html += '<button class="page-btn" onclick="changeNewsPage(-1)"' + (newsPage <= 1 ? ' disabled' : '') + '>' + prevLabel + '</button>';
+    html += '<span class="page-info">' + newsPage + ' / ' + totalPages + '</span>';
+    html += '<button class="page-btn" onclick="changeNewsPage(1)"' + (newsPage >= totalPages ? ' disabled' : '') + '>' + nextLabel + '</button>';
+    html += '</div>';
+  }
+
+  container.innerHTML = html;
+}
+
+function changeNewsPage(delta) {
+  var totalPages = Math.ceil(allNews.length / newsPerPage);
+  newsPage = Math.max(1, Math.min(totalPages, newsPage + delta));
+  renderNews();
+}
+
+/* --- 页面加载时自动加载论文和新闻 --- */
 document.addEventListener('DOMContentLoaded', function () {
+  if (window.location.pathname.indexOf('/team/') !== -1 ||
+      window.location.pathname.indexOf('/research/') !== -1 ||
+      window.location.pathname.indexOf('/news/') !== -1) {
+    base = '../';
+  }
+
   var pubList = document.getElementById('pub-list');
   if (pubList) {
     var filter = pubList.getAttribute('data-filter') || '';
@@ -207,5 +277,10 @@ document.addEventListener('DOMContentLoaded', function () {
     loadPublications(function () {
       renderPubs('pub-list', filter, filterVal, limit);
     });
+  }
+
+  var newsList = document.getElementById('news-list');
+  if (newsList) {
+    loadNews(function() { renderNews(); });
   }
 });

@@ -39,13 +39,13 @@
      ============================================================ -->
 <div class="banner">
   <!-- 替换为: <img src="images/group-photo.jpg" alt="课题组合照"> -->
-  <img src="images/group-photo.jpg" alt="课题组合照">
+  <div class="banner-placeholder" data-zh="课题组合照（将 group-photo.jpg 放入 images 文件夹）" data-en="Group photo (place group-photo.jpg in images folder)">课题组合照（将 group-photo.jpg 放入 images 文件夹）</div>
 </div>
 
 <!-- ============================================================
      主页 Hero — 左侧照片 + 右侧文字
      照片：把 ye-chao.jpg 放到 images/ 文件夹
-     然后把 <img src="images/ye-chao.jpg" alt="叶超"> 替换为
+     然后把 <div class="photo-placeholder">叶超</div> 替换为
      <img src="images/ye-chao.jpg" alt="叶超">
      ============================================================ -->
 <header id="home" class="hero">
@@ -53,7 +53,7 @@
     <div class="hero-row">
       <div class="hero-photo">
         <!-- 替换为: <img src="images/ye-chao.jpg" alt="叶超"> -->
-        <img src="images/ye-chao.jpg" alt="叶超">
+        <div class="photo-placeholder">叶超</div>
       </div>
       <div class="hero-text">
         <h1 data-zh="叶超" data-en="Ye Chao">叶超</h1>
@@ -97,35 +97,13 @@
 </section>
 
 <!-- ============================================================
-     动态 — 点击进入独立页面
-     修改指南：
-     1. 在 news/ 文件夹下新建一个 HTML 页面（参照 news/2026-launch.html）
-     2. 在下面添加一个 <a> 链接指向那个页面
+     动态 — 自动从 data/news.json 读取，支持分页
+     添加新闻：编辑 data/news.json，添加一条记录即可
      ============================================================ -->
 <section id="news" class="section section-alt">
   <div class="container">
     <h2 class="section-title" data-zh="动态" data-en="News">动态</h2>
-    <div class="news-list">
-
-      <a href="news/2026-launch.html" class="news-row">
-        <time>2026.06</time>
-        <p data-zh="课题组网站正式上线" data-en="Our research group website is now live">课题组网站正式上线</p>
-        <span class="arrow">&rsaquo;</span>
-      </a>
-
-      <a href="news/2026-welcome.html" class="news-row">
-        <time>2026.05</time>
-        <p data-zh="欢迎新成员加入课题组" data-en="Welcome new members joining the group">欢迎新成员加入课题组</p>
-        <span class="arrow">&rsaquo;</span>
-      </a>
-
-      <a href="news/2025-keynote.html" class="news-row">
-        <time>2025.09</time>
-        <p data-zh="叶超教授在治理科学年度论坛发表主题演讲" data-en="Prof. Ye Chao delivered a keynote at the Annual Governance Science Forum">叶超教授在治理科学年度论坛发表主题演讲</p>
-        <span class="arrow">&rsaquo;</span>
-      </a>
-
-    </div>
+    <div id="news-list" class="news-list"></div>
   </div>
 </section>
 
