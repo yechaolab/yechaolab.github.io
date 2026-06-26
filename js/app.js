@@ -56,7 +56,7 @@ function loadPublications(callback) {
   fetch(base + 'data/publications.json')
     .then(function (r) { return r.json(); })
     .then(function (data) {
-      allPubs = data.sort(function (a, b) { return b.year - a.year; });
+      allPubs = data.sort(function (a, b) { return (b.year * 100 + (b.month || 0)) - (a.year * 100 + (a.month || 0)); });
       if (callback) callback(allPubs);
     })
     .catch(function (err) {

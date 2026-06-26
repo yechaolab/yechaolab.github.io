@@ -16,7 +16,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "10.1016/j.scib.2026.03.026",
-    "pdf": ""
+    "pdf": "",
+    "month": 3
   },
   {
     "id": "li-2026-carbon",
@@ -34,7 +35,8 @@
     "direction": "sustainability",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 1
   },
   {
     "id": "ye-2025-governance-spatial",
@@ -51,7 +53,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 6
   },
   {
     "id": "gao-2025-humanistic",
@@ -68,7 +71,8 @@
     "direction": "geographic-thought",
     "language": "zh",
     "doi": "10.18306/dlkxjz.2025.09.016",
-    "pdf": ""
+    "pdf": "",
+    "month": 9
   },
   {
     "id": "gao-2024-shrinking",
@@ -86,7 +90,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "10.3390/land13111865",
-    "pdf": "papers/gao-2024-shrinking.pdf"
+    "pdf": "papers/gao-2024-shrinking.pdf",
+    "month": 11
   },
   {
     "id": "zhuang-2023-spatial-production",
@@ -103,7 +108,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 10
   },
   {
     "id": "zhuang-2023-sprawl",
@@ -120,7 +126,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 9
   },
   {
     "id": "ye-2022-healthy-liveable",
@@ -137,7 +144,8 @@
     "direction": "sustainability",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 6
   },
   {
     "id": "zhuang-2020-imbalance",
@@ -154,7 +162,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 6
   },
   {
     "id": "zhuang-2020-bibliometric",
@@ -171,7 +180,8 @@
     "direction": "geographic-thought",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 2
   },
   {
     "id": "ye-2020-belt-road",
@@ -188,7 +198,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 8
   },
   {
     "id": "hu-2020-dispersion",
@@ -204,7 +215,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 1
   },
   {
     "id": "zhuang-2019-dialectic",
@@ -221,7 +233,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 12
   },
   {
     "id": "zhuang-2018-disorder",
@@ -238,7 +251,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 10
   },
   {
     "id": "zhuang-2026-urbanization-logic",
@@ -254,7 +268,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 3
   },
   {
     "id": "zhuang-2026-digital-humanities",
@@ -271,7 +286,8 @@
     "direction": "geographic-thought",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 1
   },
   {
     "id": "ye-2021-yangtze-delta",
@@ -288,7 +304,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 4
   },
   {
     "id": "zhuang-2020-museum",
@@ -304,7 +321,8 @@
     "direction": "geographic-thought",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 3
   },
   {
     "id": "zhuang-2019-new-districts",
@@ -321,7 +339,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 8
   },
   {
     "id": "zhuang-2016-gansu",
@@ -337,7 +356,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 3
   },
   {
     "id": "zhao-2023-prefecture",
@@ -353,7 +373,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 5
   },
   {
     "id": "ye-2018-global-local",
@@ -370,7 +391,8 @@
     "direction": "geographic-thought",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 1
   },
   {
     "id": "bai-2020-innovation",
@@ -386,7 +408,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 6
   },
   {
     "id": "zhao-2017-county",
@@ -402,7 +425,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 9
   },
   {
     "id": "hu-2021-devzone-agglomeration",
@@ -418,7 +442,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 3
   },
   {
     "id": "hu-2020-yangtze-industry",
@@ -434,7 +459,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 3
   },
   {
     "id": "hu-2019-devzone-distribution",
@@ -450,7 +476,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 1
   },
   {
     "id": "zhuang-2025-book",
@@ -467,7 +494,8 @@
     "language": "zh",
     "doi": "",
     "pdf": "",
-    "type": "book"
+    "type": "book",
+    "month": 1
   },
   {
     "id": "ye-2023-book-springer",
@@ -485,7 +513,8 @@
     "language": "en",
     "doi": "",
     "pdf": "",
-    "type": "book"
+    "type": "book",
+    "month": 1
   },
   {
     "id": "zhuang-2023-chapter-devzone",
@@ -503,7 +532,8 @@
     "language": "zh",
     "doi": "",
     "pdf": "",
-    "type": "book"
+    "type": "book",
+    "month": 1
   },
   {
     "id": "ye-2021-chapter-suburb",
@@ -521,7 +551,8 @@
     "language": "zh",
     "doi": "",
     "pdf": "",
-    "type": "book"
+    "type": "book",
+    "month": 1
   },
   {
     "id": "zhuang-2026-chapter-visualization",
@@ -538,7 +569,8 @@
     "language": "zh",
     "doi": "",
     "pdf": "",
-    "type": "book"
+    "type": "book",
+    "month": 6
   },
   {
     "id": "yu-2026-green-coalition",
@@ -556,7 +588,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "10.1016/j.jrurstud.2026.104208",
-    "pdf": ""
+    "pdf": "",
+    "month": 5
   },
   {
     "id": "yu-2025-cross-boundary",
@@ -573,7 +606,8 @@
     "direction": "governance",
     "language": "en",
     "doi": "10.1016/j.habitatint.2024.103258",
-    "pdf": ""
+    "pdf": "",
+    "month": 1
   },
   {
     "id": "ye-2022-cross-boundary-governance",
@@ -590,7 +624,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "10.13249/j.cnki.sgs.2022.03.001",
-    "pdf": ""
+    "pdf": "",
+    "month": 3
   },
   {
     "id": "ye-2021-governance-frontier",
@@ -607,7 +642,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 1
   },
   {
     "id": "yu-2021-geo-teaching",
@@ -624,7 +660,8 @@
     "direction": "geographic-thought",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 11
   },
   {
     "id": "ye-2020-urban-rural-integration",
@@ -641,7 +678,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "10.13249/j.cnki.sgs.2020.04.004",
-    "pdf": ""
+    "pdf": "",
+    "month": 4
   },
   {
     "id": "ye-2020-fuzzy-boundary",
@@ -658,7 +696,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 5
   },
   {
     "id": "wu-2026-landscape-village",
@@ -675,7 +714,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 4
   },
   {
     "id": "wu-2025-rural-transformation",
@@ -692,7 +732,8 @@
     "direction": "governance",
     "language": "zh",
     "doi": "",
-    "pdf": ""
+    "pdf": "",
+    "month": 4
   },
   {
     "id": "ye-2022-three-industries",
@@ -709,6 +750,1523 @@
     "direction": "governance",
     "language": "zh",
     "doi": "10.15957/j.cnki.jjdl.2022.09.012",
+    "pdf": "",
+    "month": 9
+  },
+  {
+    "id": "ye-2026-life-poetics",
+    "title": "迈向生命诗学：AI时代的地理书写",
+    "title_en": "Toward Life Poetics: Geographic Writing in the Age of AI",
+    "authors": [
+      "ye-chao",
+      "ren-hongjie"
+    ],
+    "authors_display": "叶超, 任洪杰",
+    "authors_display_en": "Ye C., Ren H.",
+    "journal": "热带地理",
+    "year": 2026,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "10.13284/j.cnki.rddl.20251503",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2021-couplet-game",
+    "title": "Teaching human geography using a couplet game",
+    "title_en": "Teaching human geography using a couplet game",
+    "authors": [
+      "ye-chao",
+      "yu-jie"
+    ],
+    "authors_display": "Ye C., Gao Y., Yu J., He Y.",
+    "authors_display_en": "Ye C., Gao Y., Yu J., He Y.",
+    "journal": "Journal of Geography in Higher Education",
+    "year": 2021,
+    "month": 3,
+    "direction": "geographic-thought",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2026-fast-tourism",
+    "title": "快旅游与慢研究",
+    "title_en": "Fast Tourism and Slow Research",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "旅游学刊",
+    "year": 2026,
+    "month": 6,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2026-yangtze-gba",
+    "title": "长三角与粤港澳发展比较及战略耦合",
+    "title_en": "Comparative Development and Strategic Coupling of the Yangtze River Delta and Greater Bay Area",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "苏州大学学报(哲学社会科学版)",
+    "year": 2026,
+    "month": 3,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2026-flow-carnival",
+    "title": "流量“狂欢”还是“狂飙”：数字时代的旅游悖论",
+    "title_en": "Flow Carnival or Frenzy: Tourism Paradoxes in the Digital Age",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 张莹",
+    "authors_display_en": "Ye C., Zhang Y.",
+    "journal": "地理科学",
+    "year": 2026,
+    "month": 4,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "lin-2026-ai-geography",
+    "title": "人工智能与地理学的未来",
+    "title_en": "Artificial Intelligence and the Future of Geography",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "林耿, 叶超, 黄耿志, 等",
+    "authors_display_en": "Lin G., Ye C., Huang G., et al.",
+    "journal": "热带地理",
+    "year": 2026,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2025-flow-place",
+    "title": "流量与地方的耦合关系探究",
+    "title_en": "Exploring the Coupling Relationship between Flow and Place",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 杨馥端, 严明晖",
+    "authors_display_en": "Ye C., Yang F., Yan M.",
+    "journal": "地理科学",
+    "year": 2025,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2025-liberal-education",
+    "title": "跨学科视野下的通识教育模式创新",
+    "title_en": "Innovation of Liberal Education Models from an Interdisciplinary Perspective",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 张清源",
+    "authors_display_en": "Ye C., Zhang Q.",
+    "journal": "中国高等教育",
+    "year": 2025,
+    "month": 11,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "li-2025-port-digital",
+    "title": "港口数字化的演化模式探究",
+    "title_en": "Exploring the Evolutionary Pattern of Port Digitalization",
+    "authors": [
+      "li-yonghe",
+      "ye-chao"
+    ],
+    "authors_display": "李永贺, 吕锋, 叶超, 潘小东",
+    "authors_display_en": "Li Y., Lv F., Ye C., Pan X.",
+    "journal": "地理科学",
+    "year": 2025,
+    "month": 9,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2025-geo-poetics",
+    "title": "从大地起飞——评黄旭著《重返大地》兼论地理诗学",
+    "title_en": "Taking Off from the Earth: On Geographic Poetics",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "地理科学进展",
+    "year": 2025,
+    "month": 4,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "wu-2025-feminist-city",
+    "title": "从城市中的女性到女性友好城市——女性主义城市研究综述",
+    "title_en": "From Women in Cities to Women-friendly Cities: A Review of Feminist Urban Studies",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "吴佩瑾, 叶超",
+    "authors_display_en": "Wu P., Ye C.",
+    "journal": "国际城市规划",
+    "year": 2025,
+    "month": 2,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2024-modernization-geography",
+    "title": "中国式现代化的经济地理格局",
+    "title_en": "The Economic Geographic Pattern of Chinese Modernization",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 罗燊",
+    "authors_display_en": "Ye C., Luo S.",
+    "journal": "地理学报",
+    "year": 2024,
+    "month": 12,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2024-nature-humanity",
+    "title": "地理学中自然与人文耦合的挑战与前景",
+    "title_en": "Challenges and Prospects of Nature-Humanity Coupling in Geography",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "热带地理",
+    "year": 2024,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ma-2024-eco-civilization",
+    "title": "中国式现代化视野中的生态文明演进路径",
+    "title_en": "Evolutionary Path of Ecological Civilization in Chinese Modernization",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "马佳妮, 叶超",
+    "authors_display_en": "Ma J., Ye C.",
+    "journal": "河南大学学报(社会科学版)",
+    "year": 2024,
+    "month": 6,
+    "direction": "sustainability",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ma-2024-urban-ecology",
+    "title": "都市社会理论的生态线索及其实践路径",
+    "title_en": "Ecological Clues of Urban Social Theory and Its Practical Pathways",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "马佳妮, 叶超",
+    "authors_display_en": "Ma J., Ye C.",
+    "journal": "地理科学进展",
+    "year": 2024,
+    "month": 1,
+    "direction": "sustainability",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "jin-2024-urban-rural",
+    "title": "新时代中国城乡融合发展：挑战与路径",
+    "title_en": "Urban-Rural Integration in the New Era of China: Challenges and Pathways",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "金晓斌, 叶超, 岳文泽, 等",
+    "authors_display_en": "Jin X., Ye C., Yue W., et al.",
+    "journal": "自然资源学报",
+    "year": 2024,
+    "month": 1,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2024-tourism-productivity",
+    "title": "新质生产力与旅游业高质量发展",
+    "title_en": "New Quality Productive Forces and High-quality Tourism Development",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "厉新建, 曾博伟, 张辉, 等",
+    "authors_display_en": "Li X., Zeng B., Zhang H., et al.",
+    "journal": "旅游学刊",
+    "year": 2024,
+    "month": 5,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2023-green-report",
+    "title": "交出人民满意世界瞩目的“绿色答卷”",
+    "title_en": "Delivering a Green Report Card",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 刘志敏",
+    "authors_display_en": "Ye C., Liu Z.",
+    "journal": "光明日报",
+    "year": 2023,
+    "month": 8,
+    "direction": "sustainability",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2023-yifu-tuan",
+    "title": "朝向人文主义的世界：段义孚的思想遗产",
+    "title_en": "Toward a Humanistic World: The Intellectual Legacy of Yi-Fu Tuan",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 吴佩瑾",
+    "authors_display_en": "Ye C., Wu P.",
+    "journal": "人文地理",
+    "year": 2023,
+    "month": 2,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2023-eco-civilization",
+    "title": "正确处理生态文明建设的“五个重大关系”",
+    "title_en": "Correctly Handling the Five Major Relationships in Ecological Civilization Construction",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "红旗文稿",
+    "year": 2023,
+    "month": 9,
+    "direction": "sustainability",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "luo-2023-governance-geography",
+    "title": "面向治理的地理学发展刍议",
+    "title_en": "On the Development of Geography Oriented toward Governance",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "罗燊, 叶超",
+    "authors_display_en": "Luo S., Ye C.",
+    "journal": "地理学报",
+    "year": 2023,
+    "month": 1,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "luo-2023-geo-meets-governance",
+    "title": "当地理遇到治理：思想渊源与理论演变",
+    "title_en": "When Geography Meets Governance: Intellectual Origins and Theoretical Evolution",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "罗燊, 叶超",
+    "authors_display_en": "Luo S., Ye C.",
+    "journal": "地理科学",
+    "year": 2023,
+    "month": 7,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2022-hukou",
+    "title": "中国超大城市户籍人口转化的实证研究",
+    "title_en": "Empirical Study on Hukou Population Conversion in China's Megacities",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 杨东阳, 赵江南",
+    "authors_display_en": "Ye C., Yang D., Zhao J.",
+    "journal": "地理学报",
+    "year": 2022,
+    "month": 2,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2022-intellectual",
+    "title": "时代、社会与真正的知识分子——兼论许倬云先生的思想及其影响",
+    "title_en": "Times, Society and True Intellectuals",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "热带地理",
+    "year": 2022,
+    "month": 8,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "lin-2022-geo-creation",
+    "title": "艰难时世中的地理创造：张相文的地学生涯与学术贡献",
+    "title_en": "Geographic Creation in Hard Times: Zhang Xiangwen's Career and Contributions",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "林柄全, 叶超",
+    "authors_display_en": "Lin B., Ye C.",
+    "journal": "地理科学进展",
+    "year": 2022,
+    "month": 8,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "luo-2022-marxist-geo",
+    "title": "朝向马克思主义地理学：探寻城市化与正义问题的本质",
+    "title_en": "Toward Marxist Geography: Exploring the Essence of Urbanization and Justice",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "罗燊, 叶超",
+    "authors_display_en": "Luo S., Ye C.",
+    "journal": "地理科学进展",
+    "year": 2022,
+    "month": 10,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhu-2022-migrant-children",
+    "title": "“理想的家就是普通的家”——上海流动儿童地方感的实证分析",
+    "title_en": "The Ideal Home Is an Ordinary Home: Place Attachment of Migrant Children in Shanghai",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "朱晓丹, 叶超",
+    "authors_display_en": "Zhu X., Ye C.",
+    "journal": "人文地理",
+    "year": 2022,
+    "month": 3,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhang-2022-tourism-methodology",
+    "title": "中国旅游研究的方法论批判",
+    "title_en": "Methodological Critique of Tourism Research in China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "张清源, 叶超",
+    "authors_display_en": "Zhang Q., Ye C.",
+    "journal": "旅游学刊",
+    "year": 2022,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhang-2022-planetary-gentrification",
+    "title": "星球绅士化理论前沿及其对中国城乡治理的启示",
+    "title_en": "Planetary Gentrification Theory and Its Implications for China's Urban-Rural Governance",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "张清源, 叶超",
+    "authors_display_en": "Zhang Q., Ye C.",
+    "journal": "地理研究",
+    "year": 2022,
+    "month": 6,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2021-bunge",
+    "title": "野比尔邦奇与地理学传奇",
+    "title_en": "Wild Bill Bunge and the Legend of Geography",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "读书",
+    "year": 2021,
+    "month": 10,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2021-new-era-preface",
+    "title": "探寻新时代城乡发展的路径",
+    "title_en": "Exploring Pathways of Urban-Rural Development in the New Era",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "地理科学进展",
+    "year": 2021,
+    "month": 1,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "liu-2021-resilience",
+    "title": "社会—生态韧性视角下城乡治理的逻辑框架",
+    "title_en": "A Logical Framework for Urban-Rural Governance from a Socio-ecological Resilience Perspective",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "刘志敏, 叶超",
+    "authors_display_en": "Liu Z., Ye C.",
+    "journal": "地理科学进展",
+    "year": 2021,
+    "month": 1,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2020-rebuild-place",
+    "title": "重建地方：人文地理与GIS结合研究的路径",
+    "title_en": "Rebuilding Place: Pathways for Integrating Human Geography and GIS",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 塔娜",
+    "authors_display_en": "Ye C., Ta N.",
+    "journal": "地理科学进展",
+    "year": 2020,
+    "month": 8,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhu-2020-sustainable-city",
+    "title": "可持续城市研究进展及其对国土空间规划的启示",
+    "title_en": "Progress in Sustainable City Research and Its Implications for Spatial Planning",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "朱晓丹, 叶超, 李思梦",
+    "authors_display_en": "Zhu X., Ye C., Li S.",
+    "journal": "自然资源学报",
+    "year": 2020,
+    "month": 9,
+    "direction": "sustainability",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2019-rural-70years",
+    "title": "新中国70年乡村发展与城镇化的政策演变及其态势",
+    "title_en": "Policy Evolution and Trends of Rural Development and Urbanization in 70 Years of New China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 高洋",
+    "authors_display_en": "Ye C., Gao Y.",
+    "journal": "经济地理",
+    "year": 2019,
+    "month": 10,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2019-spatial-justice",
+    "title": "空间正义与新型城镇化研究的方法论",
+    "title_en": "Methodology of Spatial Justice and New Urbanization Research",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "地理研究",
+    "year": 2019,
+    "month": 1,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2019-harvard",
+    "title": "地理学是一门脆弱的学科吗？哈佛大学撤销地理系事件及其反思",
+    "title_en": "Is Geography a Fragile Discipline? Reflections on Harvard's Abolition of Its Geography Department",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 尹梁明, 殷清眉, 徐建华",
+    "authors_display_en": "Ye C., Yin L., Yin Q., Xu J.",
+    "journal": "地理科学进展",
+    "year": 2019,
+    "month": 3,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2019-yifu-today",
+    "title": "今日，我们如何读义孚",
+    "title_en": "How Do We Read Yi-Fu Tuan Today",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "人文地理",
+    "year": 2019,
+    "month": 5,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2019-road-to-unity",
+    "title": "通往统一的道路",
+    "title_en": "The Road to Unity",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "读书",
+    "year": 2019,
+    "month": 9,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2018-spatial-production",
+    "title": "空间生产和管制",
+    "title_en": "Spatial Production and Regulation",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "学习与探索",
+    "year": 2018,
+    "month": 8,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2018-belt-road-urbanization",
+    "title": "“一带一路”背景下城镇化与农业现代化的协调发展",
+    "title_en": "Coordinated Development of Urbanization and Agricultural Modernization under the Belt and Road",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 祝佳佳",
+    "authors_display_en": "Ye C., Zhu J.",
+    "journal": "苏州大学学报(哲学社会科学版)",
+    "year": 2018,
+    "month": 1,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "yin-2018-generality",
+    "title": "在一般性与特殊性之间的地理学",
+    "title_en": "Geography between Generality and Particularity",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "尹梁明, 殷清眉, 徐建华, 叶超",
+    "authors_display_en": "Yin L., Yin Q., Xu J., Ye C.",
+    "journal": "地理研究",
+    "year": 2018,
+    "month": 10,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "cai-2016-marxist-geo-1",
+    "title": "马克思主义地理学及其中国化：“跨国、跨界、跨代”知识行动",
+    "title_en": "Marxist Geography and Its Sinicization: Transnational, Cross-boundary, Cross-generational Knowledge Action",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "蔡运龙, 叶超, 马润潮, 等",
+    "authors_display_en": "Cai Y., Ye C., Ma R., et al.",
+    "journal": "地理研究",
+    "year": 2016,
+    "month": 7,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2012-harvey",
+    "title": "地理学思想变革的案例剖析：哈维的学术转型",
+    "title_en": "Case Analysis of Transformation in Geographic Thought: Harvey's Academic Transition",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 蔡运龙",
+    "authors_display_en": "Ye C., Cai Y.",
+    "journal": "地理学报",
+    "year": 2012,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2012-spatial-thought",
+    "title": "人文地理学空间思想的几次重大转折",
+    "title_en": "Major Turns in Spatial Thought of Human Geography",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "人文地理",
+    "year": 2012,
+    "month": 5,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2011-production-of-space",
+    "title": "“空间的生产”的理论、研究进展及其对中国城市研究的启示",
+    "title_en": "Theory of Production of Space, Research Progress and Its Implications for Urban Studies in China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 柴彦威, 张小林",
+    "authors_display_en": "Ye C., Chai Y., Zhang X.",
+    "journal": "经济地理",
+    "year": 2011,
+    "month": 3,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2010-methodology",
+    "title": "地理学方法论演变与价值判断",
+    "title_en": "Evolution of Geographic Methodology and Value Judgments",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 蔡运龙",
+    "authors_display_en": "Ye C., Cai Y.",
+    "journal": "地理研究",
+    "year": 2010,
+    "month": 5,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2009-exceptionalism",
+    "title": "地理学方法论变革的案例剖析——重新审视《地理学中的例外论》之争",
+    "title_en": "Case Analysis of Methodological Revolution in Geography: Revisiting the Exceptionalism Debate",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超, 蔡运龙",
+    "authors_display_en": "Ye C., Cai Y.",
+    "journal": "地理学报",
+    "year": 2009,
+    "month": 9,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chen-2019-new-urbanization",
+    "title": "中国特色新型城镇化理论内涵的认知与建构",
+    "title_en": "Cognition and Construction of the Theoretical Connotation of New-type Urbanization with Chinese Characteristics",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "陈明星, 叶超, 陆大道, 等",
+    "authors_display_en": "Chen M., Ye C., Lu D., et al.",
+    "journal": "地理学报",
+    "year": 2019,
+    "month": 4,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "wang-2025-space-value",
+    "title": "学者谈空间的多元价值研究与创造",
+    "title_en": "Scholars on Multi-value Research and Creation of Space",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "王凯, 张中浩, 杜晓帆, 叶超, 等",
+    "authors_display_en": "Wang K., Zhang Z., Du X., Ye C., et al.",
+    "journal": "空间与社会评论",
+    "year": 2025,
+    "month": 1,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2020-co-governance",
+    "title": "Rural-urban co-governance: multi-scale practice",
+    "title_en": "Rural-urban co-governance: multi-scale practice",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Liu Z.",
+    "authors_display_en": "Ye C., Liu Z.",
+    "journal": "Science Bulletin",
+    "year": 2020,
+    "month": 5,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2022-hukou-en",
+    "title": "An empirical study of the registered population transformation in China's megacities",
+    "title_en": "An empirical study of the registered population transformation in China's megacities",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Yang D., Zhao J.",
+    "authors_display_en": "Ye C., Yang D., Zhao J.",
+    "journal": "Journal of Geographical Sciences",
+    "year": 2022,
+    "month": 12,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2023-three-principles",
+    "title": "Three golden principles in geography teaching: Valuing theories, matching cases, and reflecting on self",
+    "title_en": "Three golden principles in geography teaching: Valuing theories, matching cases, and reflecting on self",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Zhang Q.",
+    "authors_display_en": "Ye C., Zhang Q.",
+    "journal": "Geography",
+    "year": 2023,
+    "month": 3,
+    "direction": "geographic-thought",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2022-sdg-governance",
+    "title": "Rural-urban governance toward Sustainable Development Goals",
+    "title_en": "Rural-urban governance toward Sustainable Development Goals",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Chen M., Chen R., Liao C.",
+    "authors_display_en": "Ye C., Chen M., Chen R., Liao C.",
+    "journal": "Journal of Geographical Sciences",
+    "year": 2022,
+    "month": 7,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2022-historical-logics",
+    "title": "The historical logics and geographical patterns of rural-urban governance in China",
+    "title_en": "The historical logics and geographical patterns of rural-urban governance in China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Pan J., Liu Z.",
+    "authors_display_en": "Ye C., Pan J., Liu Z.",
+    "journal": "Journal of Geographical Sciences",
+    "year": 2022,
+    "month": 7,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2020-lost-countryside",
+    "title": "The lost countryside: spatial production of rural culture in Tangwan Village in Shanghai",
+    "title_en": "The lost countryside: spatial production of rural culture in Tangwan Village in Shanghai",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Ma X., Gao Y., Johnson L.",
+    "authors_display_en": "Ye C., Ma X., Gao Y., Johnson L.",
+    "journal": "Habitat International",
+    "year": 2020,
+    "month": 4,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2023-speaking-feelings",
+    "title": "Speaking your feelings in the moment: teaching geographic thought with emotion",
+    "title_en": "Speaking your feelings in the moment: teaching geographic thought with emotion",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Zhu X., Lieske S.",
+    "authors_display_en": "Ye C., Zhu X., Lieske S.",
+    "journal": "Journal of Geography in Higher Education",
+    "year": 2023,
+    "month": 2,
+    "direction": "geographic-thought",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2019-urban-agglomeration",
+    "title": "Spatial Production and Governance of Urban Agglomeration in China 2000-2015: Yangtze River Delta as a Case",
+    "title_en": "Spatial Production and Governance of Urban Agglomeration in China 2000-2015: Yangtze River Delta as a Case",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Liu Z., Cai W., Chen R., Liu L., Cai Y.",
+    "authors_display_en": "Ye C., Liu Z., Cai W., Chen R., Liu L., Cai Y.",
+    "journal": "Sustainability",
+    "year": 2019,
+    "month": 3,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2019-pm25-framework",
+    "title": "A new framework of regional collaborative governance for PM2.5",
+    "title_en": "A new framework of regional collaborative governance for PM2.5",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Chen R., Chen M., Ye X.",
+    "authors_display_en": "Ye C., Chen R., Chen M., Ye X.",
+    "journal": "Stochastic Environmental Research and Risk Assessment",
+    "year": 2019,
+    "month": 4,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2019-yrd-economic",
+    "title": "Assessment and analysis of regional economic collaborative development within an urban agglomeration: Yangtze River Delta as a case",
+    "title_en": "Assessment and analysis of regional economic collaborative development within an urban agglomeration: Yangtze River Delta as a case",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Zhu J., Li S., Yang S., Chen M.",
+    "authors_display_en": "Ye C., Zhu J., Li S., Yang S., Chen M.",
+    "journal": "Habitat International",
+    "year": 2019,
+    "month": 1,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2019-marginalised",
+    "title": "Marginalised countryside in a globalised city: production of rural space of Wujing Township in Shanghai",
+    "title_en": "Marginalised countryside in a globalised city: production of rural space of Wujing Township in Shanghai",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Ma X., Chen R., Cai Y.",
+    "authors_display_en": "Ye C., Ma X., Chen R., Cai Y.",
+    "journal": "International Development Planning Review",
+    "year": 2019,
+    "month": 7,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2019-makers",
+    "title": "We are all makers: The method of keyword selection in teaching and learning human geography",
+    "title_en": "We are all makers: The method of keyword selection in teaching and learning human geography",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Ji R.",
+    "authors_display_en": "Ye C., Ji R.",
+    "journal": "The Professional Geographer",
+    "year": 2019,
+    "month": 7,
+    "direction": "geographic-thought",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2018-heping-village",
+    "title": "The countryside under multiple high-tension lines: A perspective on the rural construction of Heping Village, Shanghai",
+    "title_en": "The countryside under multiple high-tension lines: A perspective on the rural construction of Heping Village, Shanghai",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Ma X., Cai Y., Gao F.",
+    "authors_display_en": "Ye C., Ma X., Cai Y., Gao F.",
+    "journal": "Journal of Rural Studies",
+    "year": 2018,
+    "month": 8,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2018-freshman",
+    "title": "Fresh thing for freshman: Exploring a blended method on teaching the history of geographic thought",
+    "title_en": "Fresh thing for freshman: Exploring a blended method on teaching the history of geographic thought",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Huang X., Pan Y., Yang S.",
+    "authors_display_en": "Ye C., Huang X., Pan Y., Yang S.",
+    "journal": "Journal of Geographical Sciences",
+    "year": 2018,
+    "month": 12,
+    "direction": "geographic-thought",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2018-names-meanings",
+    "title": "Names and their meanings: Teaching cultural geography with the poem The Names of Migrant Workers",
+    "title_en": "Names and their meanings: Teaching cultural geography with the poem The Names of Migrant Workers",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Wu J.",
+    "authors_display_en": "Ye C., Wu J.",
+    "journal": "Journal of Geography in Higher Education",
+    "year": 2018,
+    "month": 4,
+    "direction": "geographic-thought",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2017-uneven-dev",
+    "title": "Uneven development, urbanization and production of space in the middle-scale region based on the case of Jiangsu province, China",
+    "title_en": "Uneven development, urbanization and production of space in the middle-scale region based on the case of Jiangsu province, China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Chen M., Duan J., Yang D.",
+    "authors_display_en": "Ye C., Chen M., Duan J., Yang D.",
+    "journal": "Habitat International",
+    "year": 2017,
+    "month": 10,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2016-nian-pollution",
+    "title": "The Impacts of Chinese Nian Culture on Air Pollution",
+    "title_en": "The Impacts of Chinese Nian Culture on Air Pollution",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Chen R.",
+    "authors_display_en": "Ye C., Chen R.",
+    "journal": "Journal of Cleaner Production",
+    "year": 2016,
+    "month": 2,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2014-nian-lancet",
+    "title": "Nian: When Chinese mythology affects air pollution",
+    "title_en": "Nian: When Chinese mythology affects air pollution",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Chen R., Young C.",
+    "authors_display_en": "Ye C., Chen R., Young C.",
+    "journal": "Lancet",
+    "year": 2014,
+    "month": 6,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2014-xianlin",
+    "title": "Multi-scalar separations: Land use and production of space of Xianlin, a university town in Nanjing, China",
+    "title_en": "Multi-scalar separations: Land use and production of space of Xianlin, a university town in Nanjing, China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C., Chen M., Chen R., Guo Z.",
+    "authors_display_en": "Ye C., Chen M., Chen R., Guo Z.",
+    "journal": "Habitat International",
+    "year": 2014,
+    "month": 4,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "zhang-2022-rural-governance",
+    "title": "Multi-dimensional superposition: Rural collaborative governance in Liushe Village, Suzhou city",
+    "title_en": "Multi-dimensional superposition: Rural collaborative governance in Liushe Village, Suzhou city",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Zhang Q., Ye C., Duan J.",
+    "authors_display_en": "Zhang Q., Ye C., Duan J.",
+    "journal": "Journal of Rural Studies",
+    "year": 2022,
+    "month": 12,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "li-2022-community-renewal",
+    "title": "Community Renewal under Multi-Stakeholder Co-Governance: A Case Study of Shanghai's Inner City",
+    "title_en": "Community Renewal under Multi-Stakeholder Co-Governance: A Case Study of Shanghai's Inner City",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Li S., Liu Z., Ye C.",
+    "authors_display_en": "Li S., Liu Z., Ye C.",
+    "journal": "Sustainability",
+    "year": 2022,
+    "month": 5,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "yang-2021-land-health",
+    "title": "Land-Use Change and Health Risks in the Process of Urbanization: A Spatiotemporal Interpretation of a Typical Case in Changzhou, China",
+    "title_en": "Land-Use Change and Health Risks in the Process of Urbanization",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Yang D., Ye C., Xu J.",
+    "authors_display_en": "Yang D., Ye C., Xu J.",
+    "journal": "Land",
+    "year": 2021,
+    "month": 8,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "liu-2021-sustainability-frontiers",
+    "title": "Where are the frontiers of sustainability research? An overview based on Web of Science database in 2013-2019",
+    "title_en": "Where are the frontiers of sustainability research?",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Liu Z., Ye C., Chen R., Zhao S.X.",
+    "authors_display_en": "Liu Z., Ye C., Chen R., Zhao S.X.",
+    "journal": "Habitat International",
+    "year": 2021,
+    "month": 10,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chen-2021-integration",
+    "title": "The integration of new-type urbanization and rural revitalization strategies in China: Origin, reality and future trends",
+    "title_en": "The integration of new-type urbanization and rural revitalization strategies in China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chen M., Zhou Y., Huang X., Ye C.",
+    "authors_display_en": "Chen M., Zhou Y., Huang X., Ye C.",
+    "journal": "Land",
+    "year": 2021,
+    "month": 2,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chen-2019-people-oriented",
+    "title": "Build a People-oriented Urbanization: China's New-type Urbanization Dream and Anhui Model",
+    "title_en": "Build a People-oriented Urbanization: China's New-type Urbanization Dream and Anhui Model",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chen M., Gong Y., Lu D., Ye C.",
+    "authors_display_en": "Chen M., Gong Y., Lu D., Ye C.",
+    "journal": "Land Use Policy",
+    "year": 2019,
+    "month": 1,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "yang-2018-pm25-global",
+    "title": "Global distribution and evolvement of urbanization and PM2.5 (1998-2015)",
+    "title_en": "Global distribution and evolvement of urbanization and PM2.5 (1998-2015)",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Yang D., Ye C., Wang X., Lu D., Xu J., Yang H.",
+    "authors_display_en": "Yang D., Ye C., Wang X., Lu D., Xu J., Yang H.",
+    "journal": "Atmospheric Environment",
+    "year": 2018,
+    "month": 6,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chen-2018-progress-urbanization",
+    "title": "Progress of China's new-type urbanization construction since 2014: A preliminary assessment",
+    "title_en": "Progress of China's new-type urbanization construction since 2014: A preliminary assessment",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chen M., Liu W., Lu D., Chen H., Ye C.",
+    "authors_display_en": "Chen M., Liu W., Lu D., Chen H., Ye C.",
+    "journal": "Cities",
+    "year": 2018,
+    "month": 9,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chen-2014-soil-nature",
+    "title": "Resolving soil pollution in China",
+    "title_en": "Resolving soil pollution in China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chen R., Ye C.",
+    "authors_display_en": "Chen R., Ye C.",
+    "journal": "Nature",
+    "year": 2014,
+    "month": 1,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chen-2014-sustainability",
+    "title": "Differences in Pattern and Driving Forces between Urban and Rural Settlements in the Coastal Region of Ningbo, China",
+    "title_en": "Differences in Pattern and Driving Forces between Urban and Rural Settlements in the Coastal Region of Ningbo, China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chen M., Ye C.",
+    "authors_display_en": "Chen M., Ye C.",
+    "journal": "Sustainability",
+    "year": 2014,
+    "month": 4,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chigbu-2022-land-perspectives",
+    "title": "Land Perspectives: People, Tenure, Planning, Tools, Space, and Health",
+    "title_en": "Land Perspectives: People, Tenure, Planning, Tools, Space, and Health",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chigbu U.E., Chen R., Ye C.",
+    "authors_display_en": "Chigbu U.E., Chen R., Ye C.",
+    "journal": "Land",
+    "year": 2022,
+    "month": 2,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "xiong-2020-deforestation",
+    "title": "Large-scale deforestation of mountainous areas during the 21st Century in Zhejiang Province",
+    "title_en": "Large-scale deforestation of mountainous areas during the 21st Century in Zhejiang Province",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Xiong B., Chen R., Xia Z., Ye C., Anker Y.",
+    "authors_display_en": "Xiong B., Chen R., Xia Z., Ye C., Anker Y.",
+    "journal": "Land Degradation and Development",
+    "year": 2020,
+    "month": 7,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "yang-2017-pm25-predict",
+    "title": "Predicting spatio-temporal concentrations of PM2.5 using land use and meteorological data in Yangtze River Delta, China",
+    "title_en": "Predicting spatio-temporal concentrations of PM2.5",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Yang D., Lu D., Xu J., Ye C., et al.",
+    "authors_display_en": "Yang D., Lu D., Xu J., Ye C., et al.",
+    "journal": "Stochastic Environmental Research and Risk Assessment",
+    "year": 2017,
+    "month": 8,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "yang-2018-pm25-socioeconomic",
+    "title": "Quantifying the influence of natural and socioeconomic factors and their interactive impact on PM2.5 pollution in China",
+    "title_en": "Quantifying the influence of natural and socioeconomic factors and their interactive impact on PM2.5 pollution in China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Yang D., Wang X., Xu J., Xu C., Lu D., Ye C., et al.",
+    "authors_display_en": "Yang D., Wang X., Xu J., Xu C., Lu D., Ye C., et al.",
+    "journal": "Environmental Pollution",
+    "year": 2018,
+    "month": 10,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chen-2015-data-revolution",
+    "title": "Time for data revolution in China",
+    "title_en": "Time for data revolution in China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chen R., de Sherbinin A., Ye C.",
+    "authors_display_en": "Chen R., de Sherbinin A., Ye C.",
+    "journal": "Science",
+    "year": 2015,
+    "month": 6,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chen-2014-rural-migration",
+    "title": "The impact of rural out-migration on land use transition in China: Past, present and trend",
+    "title_en": "The impact of rural out-migration on land use transition in China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chen R., Ye C., Cai Y., Xing X., Chen Q.",
+    "authors_display_en": "Chen R., Ye C., Cai Y., Xing X., Chen Q.",
+    "journal": "Land Use Policy",
+    "year": 2014,
+    "month": 9,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chen-2014-mulligan",
+    "title": "Comments on Mulligan's Revisiting the urbanization curve",
+    "title_en": "Comments on Mulligan's Revisiting the urbanization curve",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chen M., Ye C., Zhou Y.",
+    "authors_display_en": "Chen M., Ye C., Zhou Y.",
+    "journal": "Cities",
+    "year": 2014,
+    "month": 12,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chen-2014-soil-science",
+    "title": "China's soil pollution: Farms on the frontline",
+    "title_en": "China's soil pollution: Farms on the frontline",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chen R., de Sherbinin A., Ye C., Shi G.",
+    "authors_display_en": "Chen R., de Sherbinin A., Ye C., Shi G.",
+    "journal": "Science",
+    "year": 2014,
+    "month": 5,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "chen-2012-karst",
+    "title": "Integrated restoration of small watershed in karst regions of southwest China",
+    "title_en": "Integrated restoration of small watershed in karst regions of southwest China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chen R., Ye C., Cai Y., Xing X.",
+    "authors_display_en": "Chen R., Ye C., Cai Y., Xing X.",
+    "journal": "AMBIO",
+    "year": 2012,
+    "month": 12,
+    "direction": "sustainability",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "wu-2019-poverty",
+    "title": "Research on the intergenerational transmission of poverty in rural China based on sustainable livelihood analysis framework",
+    "title_en": "Research on the intergenerational transmission of poverty in rural China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Wu X., Qi X., Yang S., Ye C., Sun B.",
+    "authors_display_en": "Wu X., Qi X., Yang S., Ye C., Sun B.",
+    "journal": "Sustainability",
+    "year": 2019,
+    "month": 4,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
     "pdf": ""
   }
 ]
