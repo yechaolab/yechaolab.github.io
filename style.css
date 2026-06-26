@@ -31,7 +31,7 @@ a:hover{text-decoration:underline;}
 .menu-btn{display:none;background:none;border:none;font-size:22px;cursor:pointer;color:var(--text);padding:4px;}
 
 /* === Hero === */
-.hero{padding:96px 0 56px;border-bottom:1px solid var(--border);}
+.hero{padding:48px 0 56px;border-bottom:1px solid var(--border);}
 .hero-row{display:flex;gap:44px;align-items:flex-start;}
 .hero-photo{flex-shrink:0;}
 .hero-photo img{width:180px;height:240px;border-radius:6px;object-fit:cover;display:block;}
@@ -82,13 +82,35 @@ a.member-card:hover{border-color:#bbb;box-shadow:0 4px 16px rgba(0,0,0,.06);}
 
 /* === 学术成果 === */
 .pub-year{font-family:var(--serif);font-size:20px;font-weight:700;color:var(--navy);margin:24px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--border);}
-.pub{margin-bottom:16px;padding-left:16px;border-left:3px solid var(--blue);}
+.pub{margin-bottom:16px;padding-left:16px;border-left:3px solid var(--blue);position:relative;}
 .pub-title{font-weight:600;color:var(--text);font-size:15px;}
 .pub-authors{font-size:14px;color:var(--text-mid);}
 .pub-venue{font-size:14px;color:var(--text-light);}
-.pub-links{margin-left:8px;}
-.pub-links a{font-size:13px;font-weight:500;margin-right:8px;color:var(--blue);}
+.pub-links{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap;}
+.pub-btn{font-size:12px;font-weight:600;padding:3px 10px;border-radius:4px;border:1px solid var(--border);background:var(--bg);color:var(--text-mid);cursor:pointer;text-decoration:none!important;font-family:var(--sans);display:inline-flex;align-items:center;gap:3px;transition:all .15s;}
+.pub-btn:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-light);}
+.btn-pdf{color:var(--green);border-color:var(--green-light);}
+.btn-pdf:hover{background:var(--green-light);border-color:var(--green);}
+.cite-box{display:none;margin-top:8px;padding:12px;background:var(--bg-alt);border:1px solid var(--border);border-radius:6px;font-size:13px;line-height:1.6;}
+.cite-tabs{display:flex;gap:0;margin-bottom:8px;border-bottom:1px solid var(--border);}
+.cite-tab{padding:4px 12px;font-size:12px;font-weight:600;color:var(--text-light);cursor:pointer;border-bottom:2px solid transparent;}
+.cite-tab.active{color:var(--navy);border-bottom-color:var(--blue);}
+.cite-content{color:var(--text);word-break:break-all;}
+.cite-copy{font-size:12px;margin-top:8px;padding:3px 10px;border-radius:4px;border:1px solid var(--border);background:var(--bg);color:var(--text-mid);cursor:pointer;font-family:var(--sans);}
+.cite-copy:hover{border-color:var(--blue);color:var(--blue);}
 .no-data{color:var(--text-light);font-style:italic;}
+
+/* === 课题组横幅合照 === */
+.banner{width:100%;max-height:360px;overflow:hidden;margin-top:56px;}
+.banner img{width:100%;height:auto;display:block;object-fit:cover;max-height:360px;}
+.banner-placeholder{width:100%;height:200px;background:var(--bg-alt);display:flex;align-items:center;justify-content:center;color:var(--text-light);font-size:14px;border-bottom:1px solid var(--border);}
+
+/* === Join Us === */
+.join-us{padding:56px 0;background:var(--blue-light);text-align:center;}
+.join-us h2{font-family:var(--serif);font-size:24px;font-weight:700;color:var(--navy);margin-bottom:12px;}
+.join-us p{font-size:15px;color:var(--text-mid);line-height:1.8;max-width:600px;margin:0 auto 16px;}
+.join-us a.join-btn{display:inline-block;padding:10px 28px;background:var(--blue);color:#fff;border-radius:6px;font-weight:600;font-size:15px;text-decoration:none!important;transition:opacity .2s;}
+.join-us a.join-btn:hover{opacity:.9;}
 
 /* === 联系 === */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;}

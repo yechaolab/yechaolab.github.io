@@ -48,9 +48,6 @@ function toggleMenu() {
 
 /* --- 加载论文数据 --- */
 function loadPublications(callback) {
-  // 根据页面层级确定 data 路径
-  var base = '';
-  var depth = (window.location.pathname.match(/\//g) || []).length;
   if (window.location.pathname.indexOf('/team/') !== -1 ||
       window.location.pathname.indexOf('/research/') !== -1 ||
       window.location.pathname.indexOf('/news/') !== -1) {
@@ -105,12 +102,23 @@ function renderPubs(containerId, filterKey, filterVal, limit) {
       html += '<span class="pub-title">' + title + '</span><br>';
       html += '<span class="pub-authors">' + authors + '</span><br>';
       html += '<span class="pub-venue"><em>' + p.journal + '</em>, ' + p.year + '.</span>';
-      if (p.doi || p.pdf) {
-        html += '<span class="pub-links">';
-        if (p.pdf) html += ' <a href="' + p.pdf + '" target="_blank">PDF</a>';
-        if (p.doi) html += ' <a href="https://doi.org/' + p.doi + '" target="_blank">DOI</a>';
-        html += '</span>';
+      html += '<span class="pub-links">';
+      if (p.pdf) {
+        var pdfPath = (base || '') + p.pdf;
+        html += '<a href="' + pdfPath + '" target="_blank" class="pub-btn btn-pdf" download>&#128196; PDF</a>';
       }
+      if (p.doi) html += '<a href="https://doi.org/' + p.doi + '" target="_blank" class="pub-btn btn-doi">DOI</a>';
+      html += '<button class="pub-btn btn-cite" onclick="showCite(\'' + p.id + '\')">&#128203; Cite</button>';
+      html += '</span>';
+      // Citation popup (hidden by default)
+      var gb = buildGB(p);
+      var apa = buildAPA(p);
+      html += '<div class="cite-box" id="cite-' + p.id + '">';
+      html += '<div class="cite-tabs"><span class="cite-tab active" onclick="switchCiteTab(this,\'' + p.id + '\',\'gb\')">GB/T 7714</span><span class="cite-tab" onclick="switchCiteTab(this,\'' + p.id + '\',\'apa\')">APA</span></div>';
+      html += '<div class="cite-content" id="cite-gb-' + p.id + '">' + gb + '</div>';
+      html += '<div class="cite-content" id="cite-apa-' + p.id + '" style="display:none">' + apa + '</div>';
+      html += '<button class="cite-copy" onclick="copyCite(\'' + p.id + '\')">&#128203; Copy</button>';
+      html += '</div>';
       html += '</div>';
     });
   });
@@ -123,6 +131,46 @@ function renderPubs(containerId, filterKey, filterVal, limit) {
   container.innerHTML = html;
 }
 
+/* --- 生成 GB/T 7714 引用 --- */
+function buildGB(p) {
+  var authors = p.authors_display || '';
+  return authors + '. ' + (p.title || p.title_en) + '[J]. ' + p.journal + ', ' + p.year + '.' + (p.doi ? ' DOI:' + p.doi : '');
+}
+
+/* --- 生成 APA 引用 --- */
+function buildAPA(p) {
+  var authors = p.authors_display_en || p.authors_display || '';
+  return authors + ' (' + p.year + '). ' + (p.title_en || p.title) + '. <em>' + p.journal + '</em>.' + (p.doi ? ' https://doi.org/' + p.doi : '');
+}
+
+/* --- 显示/隐藏引用框 --- */
+function showCite(id) {
+  var box = document.getElementById('cite-' + id);
+  box.style.display = box.style.display === 'block' ? 'none' : 'block';
+}
+
+/* --- 切换引用格式 --- */
+function switchCiteTab(tab, id, format) {
+  var tabs = tab.parentNode.querySelectorAll('.cite-tab');
+  tabs.forEach(function(t) { t.classList.remove('active'); });
+  tab.classList.add('active');
+  document.getElementById('cite-gb-' + id).style.display = format === 'gb' ? 'block' : 'none';
+  document.getElementById('cite-apa-' + id).style.display = format === 'apa' ? 'block' : 'none';
+}
+
+/* --- 复制引用 --- */
+function copyCite(id) {
+  var gb = document.getElementById('cite-gb-' + id);
+  var apa = document.getElementById('cite-apa-' + id);
+  var text = (gb.style.display !== 'none' ? gb : apa).textContent;
+  navigator.clipboard.writeText(text).then(function() {
+    var btn = event.target;
+    btn.textContent = '✓ Copied';
+    setTimeout(function() { btn.innerHTML = '&#128203; Copy'; }, 1500);
+  });
+}
+
+var base = '';
 /* --- 页面加载时自动加载论文 --- */
 document.addEventListener('DOMContentLoaded', function () {
   var pubList = document.getElementById('pub-list');
