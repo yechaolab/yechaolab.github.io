@@ -81,60 +81,86 @@ function renderPubs(containerId, filterKey, filterVal, limit) {
   if (filterKey === 'author' && filterVal) {
     pubs = pubs.filter(function (p) { return p.authors.indexOf(filterVal) !== -1; });
   }
-  if (limit > 0) pubs = pubs.slice(0, limit);
 
-  // 按年份分组
+  // Separate articles and books
+  var articles = pubs.filter(function(p) { return p.type !== 'book'; });
+  var books = pubs.filter(function(p) { return p.type === 'book'; });
+
+  if (limit > 0) articles = articles.slice(0, limit);
+
+  var html = '';
+
+  // Render articles grouped by year
   var years = {};
-  pubs.forEach(function (p) {
+  articles.forEach(function (p) {
     if (!years[p.year]) years[p.year] = [];
     years[p.year].push(p);
   });
-
-  var html = '';
   var sortedYears = Object.keys(years).sort(function (a, b) { return b - a; });
 
   sortedYears.forEach(function (year) {
     html += '<h3 class="pub-year">' + year + '</h3>';
     years[year].forEach(function (p) {
-      var title = currentLang === 'en' && p.title_en ? p.title_en : p.title;
-      var authors = currentLang === 'en' && p.authors_display_en ? p.authors_display_en : p.authors_display;
-      html += '<div class="pub">';
-      html += '<span class="pub-title">' + title + '</span><br>';
-      html += '<span class="pub-authors">' + authors + '</span><br>';
-      html += '<span class="pub-venue"><em>' + p.journal + '</em>, ' + p.year + '.</span>';
-      html += '<span class="pub-links">';
-      if (p.pdf) {
-        var pdfPath = (base || '') + p.pdf;
-        html += '<a href="' + pdfPath + '" target="_blank" class="pub-btn btn-pdf" download>&#128196; PDF</a>';
-      }
-      if (p.doi) html += '<a href="https://doi.org/' + p.doi + '" target="_blank" class="pub-btn btn-doi">DOI</a>';
-      html += '<button class="pub-btn btn-cite" onclick="showCite(\'' + p.id + '\')">&#128203; Cite</button>';
-      html += '</span>';
-      // Citation popup (hidden by default)
-      var gb = buildGB(p);
-      var apa = buildAPA(p);
-      html += '<div class="cite-box" id="cite-' + p.id + '">';
-      html += '<div class="cite-tabs"><span class="cite-tab active" onclick="switchCiteTab(this,\'' + p.id + '\',\'gb\')">GB/T 7714</span><span class="cite-tab" onclick="switchCiteTab(this,\'' + p.id + '\',\'apa\')">APA</span></div>';
-      html += '<div class="cite-content" id="cite-gb-' + p.id + '">' + gb + '</div>';
-      html += '<div class="cite-content" id="cite-apa-' + p.id + '" style="display:none">' + apa + '</div>';
-      html += '<button class="cite-copy" onclick="copyCite(\'' + p.id + '\')">&#128203; Copy</button>';
-      html += '</div>';
-      html += '</div>';
+      html += renderOnePub(p);
     });
   });
 
-  if (pubs.length === 0) {
-    html = '<p class="no-data" data-zh="暂无数据" data-en="No publications yet.">' +
-      (currentLang === 'en' ? 'No publications yet.' : '暂无数据') + '</p>';
+  // Render books separately (only when no limit, i.e. full page)
+  if (limit === 0 && books.length > 0) {
+    var bookLabel = currentLang === 'en' ? 'Books & Chapters' : '著作/章节';
+    html += '<h2 class="section-title" style="margin-top:40px;">' + bookLabel + '</h2>';
+    var byears = {};
+    books.forEach(function(p) {
+      if (!byears[p.year]) byears[p.year] = [];
+      byears[p.year].push(p);
+    });
+    Object.keys(byears).sort(function(a,b){return b-a;}).forEach(function(year) {
+      html += '<h3 class="pub-year">' + year + '</h3>';
+      byears[year].forEach(function(p) {
+        html += renderOnePub(p);
+      });
+    });
+  }
+
+  if (articles.length === 0 && books.length === 0) {
+    html = '<p class="no-data">' + (currentLang === 'en' ? 'No publications yet.' : '暂无数据') + '</p>';
   }
 
   container.innerHTML = html;
 }
 
+function renderOnePub(p) {
+  var title = currentLang === 'en' && p.title_en ? p.title_en : p.title;
+  var authors = currentLang === 'en' && p.authors_display_en ? p.authors_display_en : p.authors_display;
+  var h = '<div class="pub">';
+  h += '<span class="pub-title">' + title + '</span><br>';
+  h += '<span class="pub-authors">' + authors + '</span><br>';
+  h += '<span class="pub-venue"><em>' + p.journal + '</em>, ' + p.year + '.</span>';
+  h += '<span class="pub-links">';
+  if (p.pdf) {
+    var pdfPath = (base || '') + p.pdf;
+    h += '<a href="' + pdfPath + '" target="_blank" class="pub-btn btn-pdf" download>&#128196; PDF</a>';
+  }
+  if (p.doi) h += '<a href="https://doi.org/' + p.doi + '" target="_blank" class="pub-btn btn-doi">DOI</a>';
+  h += '<button class="pub-btn btn-cite" onclick="showCite(\'' + p.id + '\')">&#128203; Cite</button>';
+  h += '</span>';
+  var gb = buildGB(p);
+  var apa = buildAPA(p);
+  h += '<div class="cite-box" id="cite-' + p.id + '">';
+  h += '<div class="cite-tabs"><span class="cite-tab active" onclick="switchCiteTab(this,\'' + p.id + '\',\'gb\')">GB/T 7714</span><span class="cite-tab" onclick="switchCiteTab(this,\'' + p.id + '\',\'apa\')">APA</span></div>';
+  h += '<div class="cite-content" id="cite-gb-' + p.id + '">' + gb + '</div>';
+  h += '<div class="cite-content" id="cite-apa-' + p.id + '" style="display:none">' + apa + '</div>';
+  h += '<button class="cite-copy" onclick="copyCite(\'' + p.id + '\')">&#128203; Copy</button>';
+  h += '</div>';
+  h += '</div>';
+  return h;
+}
+
 /* --- 生成 GB/T 7714 引用 --- */
 function buildGB(p) {
   var authors = p.authors_display || '';
-  return authors + '. ' + (p.title || p.title_en) + '[J]. ' + p.journal + ', ' + p.year + '.' + (p.doi ? ' DOI:' + p.doi : '');
+  var tag = p.type === 'book' ? '[M]' : '[J]';
+  return authors + '. ' + (p.title || p.title_en) + tag + '. ' + p.journal + ', ' + p.year + '.' + (p.doi ? ' DOI:' + p.doi : '');
 }
 
 /* --- 生成 APA 引用 --- */

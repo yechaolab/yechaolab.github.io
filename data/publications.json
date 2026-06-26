@@ -707,7 +707,7 @@
       "wu-shiqiang",
       "ye-chao"
     ],
-    "authors_display": "吴仕嫗, 叶超",
+    "authors_display": "吴仕嫱, 叶超",
     "authors_display_en": "Wu S., Ye C.",
     "journal": "自然资源学报",
     "year": 2026,
@@ -725,7 +725,7 @@
       "wu-shiqiang",
       "ye-chao"
     ],
-    "authors_display": "吴仕嫗, 叶超, 陈晓华",
+    "authors_display": "吴仕嫱, 叶超, 陈晓华",
     "authors_display_en": "Wu S., Ye C., Chen X.",
     "journal": "经济地理",
     "year": 2025,
@@ -2100,23 +2100,6 @@
     "pdf": ""
   },
   {
-    "id": "chigbu-2022-land-perspectives",
-    "title": "Land Perspectives: People, Tenure, Planning, Tools, Space, and Health",
-    "title_en": "Land Perspectives: People, Tenure, Planning, Tools, Space, and Health",
-    "authors": [
-      "ye-chao"
-    ],
-    "authors_display": "Chigbu U.E., Chen R., Ye C.",
-    "authors_display_en": "Chigbu U.E., Chen R., Ye C.",
-    "journal": "Land",
-    "year": 2022,
-    "month": 2,
-    "direction": "governance",
-    "language": "en",
-    "doi": "",
-    "pdf": ""
-  },
-  {
     "id": "xiong-2020-deforestation",
     "title": "Large-scale deforestation of mountainous areas during the 21st Century in Zhejiang Province",
     "title_en": "Large-scale deforestation of mountainous areas during the 21st Century in Zhejiang Province",
@@ -2266,6 +2249,275 @@
     "month": 4,
     "direction": "governance",
     "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2024-book-teaching",
+    "title": "Exploring New Methods for Teaching and Learning Human Geography",
+    "title_en": "Exploring New Methods for Teaching and Learning Human Geography",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C.",
+    "authors_display_en": "Ye C.",
+    "journal": "Singapore: Springer Nature",
+    "year": 2024,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "en",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "ye-2021-book-rural-urban",
+    "title": "A Theory and History of Rural-urban Governance in China",
+    "title_en": "A Theory and History of Rural-urban Governance in China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Ye C.",
+    "authors_display_en": "Ye C.",
+    "journal": "Singapore: Springer Nature",
+    "year": 2021,
+    "month": 1,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "chigbu-2022-book-land",
+    "title": "Land Perspectives: People, Tenure, Planning, Tools, Space, and Health",
+    "title_en": "Land Perspectives: People, Tenure, Planning, Tools, Space, and Health",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Chigbu U.E., Chen R., Ye C.",
+    "authors_display_en": "Chigbu U.E., Chen R., Ye C.",
+    "journal": "Switzerland: MDPI",
+    "year": 2022,
+    "month": 1,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "ye-2014-book-tiguo",
+    "title": "体国经野：中国城乡关系发展的理论与历史",
+    "title_en": "Theory and History of Urban-Rural Relations in China",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "南京: 东南大学出版社",
+    "year": 2014,
+    "month": 1,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "ye-2021-book-spacetime",
+    "title": "时空之间",
+    "title_en": "Between Space and Time",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超",
+    "authors_display_en": "Ye C.",
+    "journal": "北京: 商务印书馆",
+    "year": 2021,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "ye-2022-book-translation",
+    "title": "社会正义与城市（译著）",
+    "title_en": "Social Justice and the City (Translation)",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超 等译",
+    "authors_display_en": "Ye C. et al. (Trans.)",
+    "journal": "北京: 商务印书馆",
+    "year": 2022,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "ye-2020-textbook-regional",
+    "title": "区域发展（上海市高中地理教材）",
+    "title_en": "Regional Development (Shanghai High School Geography Textbook)",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超 主编",
+    "authors_display_en": "Ye C. (Ed.)",
+    "journal": "北京: 中国地图出版社",
+    "year": 2020,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "ye-2020-atlas-regional",
+    "title": "地理图册·区域发展",
+    "title_en": "Geographic Atlas: Regional Development",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "叶超 副主编",
+    "authors_display_en": "Ye C. (Assoc. Ed.)",
+    "journal": "北京: 中国地图出版社",
+    "year": 2020,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "cai-2023-book-classics",
+    "title": "地理学思想经典解读",
+    "title_en": "Classic Readings in Geographic Thought",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "蔡运龙, 叶超, 陈彦光, 阙维民 等",
+    "authors_display_en": "Cai Y., Ye C., Chen Y., Que W. et al.",
+    "journal": "北京: 商务印书馆",
+    "year": 2023,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "cai-2011-book-methodology",
+    "title": "地理学方法论",
+    "title_en": "Methodology of Geography",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "蔡运龙, 叶超, 陈彦光, 阙维民",
+    "authors_display_en": "Cai Y., Ye C., Chen Y., Que W.",
+    "journal": "北京: 科学出版社",
+    "year": 2011,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "chai-2012-book-urban",
+    "title": "城市地理学思想与方法",
+    "title_en": "Thoughts and Methods of Urban Geography",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "柴彦威 等（叶超写作第15章）",
+    "authors_display_en": "Chai Y. et al. (Ye C. Chapter 15)",
+    "journal": "北京: 科学出版社",
+    "year": 2012,
+    "month": 1,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "duan-2013-book-urbanization",
+    "title": "中国城镇化研究报告",
+    "title_en": "China Urbanization Research Report",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "段进军, 姚士谋, 陈明星, 龙花楼, 叶超 等",
+    "authors_display_en": "Duan J., Yao S., Chen M., Long H., Ye C. et al.",
+    "journal": "苏州: 苏州大学出版社",
+    "year": 2013,
+    "month": 1,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": "",
+    "type": "book"
+  },
+  {
+    "id": "ye-2026-climate-governance",
+    "title": "Coupling Climate-Social System for Effective Climate Governance",
+    "title_en": "Coupling Climate-Social System for Effective Climate Governance",
+    "authors": [
+      "ye-chao",
+      "zhuang-liang",
+      "li-yonghe"
+    ],
+    "authors_display": "Ye C., Zhuang L., Li Y., et al.",
+    "authors_display_en": "Ye C., Zhuang L., Li Y., et al.",
+    "journal": "Geography and Sustainability",
+    "year": 2026,
+    "month": 4,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "yang-2026-wanghong-city",
+    "title": "Buzzing the production of space in tourism destination: A 'Wanghong' City perspective",
+    "title_en": "Buzzing the production of space in tourism destination: A 'Wanghong' City perspective",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "Yang F., Ye C., Zhang W.",
+    "authors_display_en": "Yang F., Ye C., Zhang W.",
+    "journal": "Cities",
+    "year": 2026,
+    "month": 6,
+    "direction": "governance",
+    "language": "en",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "yang-2026-rural-commodification",
+    "title": "企业主义视角下乡村空间商品化的治理逻辑：以皋兰什川古梨园为例",
+    "title_en": "Governance Logic of Rural Space Commodification from an Entrepreneurialism Perspective: A Case Study of Shichuan Ancient Pear Garden in Gaolan",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "杨馥端, 叶超",
+    "authors_display_en": "Yang F., Ye C.",
+    "journal": "地理研究",
+    "year": 2026,
+    "month": 6,
+    "direction": "governance",
+    "language": "zh",
     "doi": "",
     "pdf": ""
   }
