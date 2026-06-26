@@ -491,7 +491,10 @@
     "id": "zhuang-2023-chapter-devzone",
     "title": "开发区与行政区的叠合问题及其融合路径：以长三角地区为例",
     "title_en": "Overlapping Issues and Integration Pathways of Development Zones and Administrative Districts: A Case Study of the Yangtze River Delta",
-    "authors": ["zhuang-liang", "ye-chao"],
+    "authors": [
+      "zhuang-liang",
+      "ye-chao"
+    ],
     "authors_display": "庄良, 叶超",
     "authors_display_en": "Zhuang L., Ye C.",
     "journal": "载于孙斌栋主编《国家空间治理与行政区划2：中心城市治理》, 南京: 东南大学出版社",
@@ -506,7 +509,10 @@
     "id": "ye-2021-chapter-suburb",
     "title": "郊区新城建设",
     "title_en": "Suburban New Town Construction",
-    "authors": ["ye-chao", "zhuang-liang"],
+    "authors": [
+      "ye-chao",
+      "zhuang-liang"
+    ],
     "authors_display": "叶超, 塔娜, 庄良, 赵江南",
     "authors_display_en": "Ye C., Ta N., Zhuang L., Zhao J.",
     "journal": "载于周振华等主编《全球城市发展报告2020》, 上海: 格致出版社",
@@ -521,7 +527,9 @@
     "id": "zhuang-2026-chapter-visualization",
     "title": "可视化分析技术",
     "title_en": "Visualization Analysis Technology",
-    "authors": ["zhuang-liang"],
+    "authors": [
+      "zhuang-liang"
+    ],
     "authors_display": "庄良",
     "authors_display_en": "Zhuang L.",
     "journal": "载于曾军主编《数字人文教程》, 北京: 高等教育出版社",
@@ -531,5 +539,176 @@
     "doi": "",
     "pdf": "",
     "type": "book"
+  },
+  {
+    "id": "yu-2026-green-coalition",
+    "title": "Green development coalition: The new dynamics of rural environmental governance in the Jiangsu-Zhejiang border area of China",
+    "title_en": "Green development coalition: The new dynamics of rural environmental governance in the Jiangsu-Zhejiang border area of China",
+    "authors": [
+      "yu-jie",
+      "ye-chao",
+      "zhuang-liang"
+    ],
+    "authors_display": "Yu J., Ye C., Zhuang L.",
+    "authors_display_en": "Yu J., Ye C., Zhuang L.",
+    "journal": "Journal of Rural Studies",
+    "year": 2026,
+    "direction": "governance",
+    "language": "en",
+    "doi": "10.1016/j.jrurstud.2026.104208",
+    "pdf": ""
+  },
+  {
+    "id": "yu-2025-cross-boundary",
+    "title": "A new conceptual framework and case analysis of rural environmental cross-boundary governance in megacities of China",
+    "title_en": "A new conceptual framework and case analysis of rural environmental cross-boundary governance in megacities of China",
+    "authors": [
+      "yu-jie",
+      "ye-chao"
+    ],
+    "authors_display": "Yu J., Ye C.",
+    "authors_display_en": "Yu J., Ye C.",
+    "journal": "Habitat International",
+    "year": 2025,
+    "direction": "governance",
+    "language": "en",
+    "doi": "10.1016/j.habitatint.2024.103258",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2022-cross-boundary-governance",
+    "title": "跨界治理的理论重构——以长江三角洲地区为例",
+    "title_en": "Theoretical Reconstruction of Cross-boundary Governance: A Case Study of the Yangtze River Delta",
+    "authors": [
+      "ye-chao",
+      "yu-jie"
+    ],
+    "authors_display": "叶超, 赵江南, 张清源, 等",
+    "authors_display_en": "Ye C., Zhao J., Zhang Q., et al.",
+    "journal": "地理科学",
+    "year": 2022,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "10.13249/j.cnki.sgs.2022.03.001",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2021-governance-frontier",
+    "title": "从治理到城乡治理：国际前沿、发展态势与中国路径",
+    "title_en": "From Governance to Urban-Rural Governance: International Frontiers, Trends, and China's Pathways",
+    "authors": [
+      "ye-chao",
+      "yu-jie"
+    ],
+    "authors_display": "叶超, 于洁, 张清源, 等",
+    "authors_display_en": "Ye C., Yu J., Zhang Q., et al.",
+    "journal": "地理科学进展",
+    "year": 2021,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "yu-2021-geo-teaching",
+    "title": "地理学思想教学的五个要领",
+    "title_en": "Five Key Points in Teaching Geographic Thought",
+    "authors": [
+      "yu-jie",
+      "ye-chao"
+    ],
+    "authors_display": "于洁, 叶超",
+    "authors_display_en": "Yu J., Ye C.",
+    "journal": "世界地理研究",
+    "year": 2021,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2020-urban-rural-integration",
+    "title": "迈向城乡融合：新型城镇化与乡村振兴结合研究的关键与趋势",
+    "title_en": "Toward Urban-Rural Integration: Key Issues and Trends in Combining New Urbanization with Rural Revitalization",
+    "authors": [
+      "ye-chao",
+      "yu-jie"
+    ],
+    "authors_display": "叶超, 于洁",
+    "authors_display_en": "Ye C., Yu J.",
+    "journal": "地理科学",
+    "year": 2020,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "10.13249/j.cnki.sgs.2020.04.004",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2020-fuzzy-boundary",
+    "title": "模糊的边界：城镇化与城市际性的演变",
+    "title_en": "Blurred Boundaries: The Evolution of Urbanization and Inter-city Relations",
+    "authors": [
+      "ye-chao",
+      "yu-jie"
+    ],
+    "authors_display": "叶超, 于洁",
+    "authors_display_en": "Ye C., Yu J.",
+    "journal": "探索与争鸣",
+    "year": 2020,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "wu-2026-landscape-village",
+    "title": "景观社会理论视角下传统村落流量生产的演化过程与空间重构特征及作用机制",
+    "title_en": "Evolutionary Process and Spatial Restructuring of Traffic Production in Traditional Villages from the Perspective of Landscape Society Theory",
+    "authors": [
+      "wu-shiqiang",
+      "ye-chao"
+    ],
+    "authors_display": "吴仕嫗, 叶超",
+    "authors_display_en": "Wu S., Ye C.",
+    "journal": "自然资源学报",
+    "year": 2026,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "wu-2025-rural-transformation",
+    "title": "都市边缘区乡村空间转型及治理路径——以安徽省合肥市崔岗村为例",
+    "title_en": "Rural Spatial Transformation and Governance Pathways in Urban Fringe Areas: A Case Study of Cuigang Village, Hefei",
+    "authors": [
+      "wu-shiqiang",
+      "ye-chao"
+    ],
+    "authors_display": "吴仕嫗, 叶超, 陈晓华",
+    "authors_display_en": "Wu S., Ye C., Chen X.",
+    "journal": "经济地理",
+    "year": 2025,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "ye-2022-three-industries",
+    "title": "“三业结合”全面提振中国经济的逻辑与路径",
+    "title_en": "Logic and Pathways for Comprehensively Revitalizing China’s Economy through the Integration of Three Industries",
+    "authors": [
+      "ye-chao",
+      "gao-lei"
+    ],
+    "authors_display": "叶超, 高磊",
+    "authors_display_en": "Ye C., Gao L.",
+    "journal": "经济地理",
+    "year": 2022,
+    "direction": "governance",
+    "language": "zh",
+    "doi": "10.15957/j.cnki.jjdl.2022.09.012",
+    "pdf": ""
   }
 ]
