@@ -617,8 +617,8 @@
       "ye-chao",
       "yu-jie"
     ],
-    "authors_display": "叶超, 赵江南, 张清源, 等",
-    "authors_display_en": "Ye C., Zhao J., Zhang Q., et al.",
+    "authors_display": "叶超, 赵江南, 张清源, 于洁",
+    "authors_display_en": "Ye C., Zhao J., Zhang Q., Yu J.",
     "journal": "地理科学",
     "year": 2022,
     "direction": "governance",
@@ -635,8 +635,8 @@
       "ye-chao",
       "yu-jie"
     ],
-    "authors_display": "叶超, 于洁, 张清源, 等",
-    "authors_display_en": "Ye C., Yu J., Zhang Q., et al.",
+    "authors_display": "叶超, 于洁, 张清源, 朱晓丹",
+    "authors_display_en": "Ye C., Yu J., Zhang Q., Zhu X.",
     "journal": "地理科学进展",
     "year": 2021,
     "direction": "governance",
@@ -862,7 +862,8 @@
     "title": "流量与地方的耦合关系探究",
     "title_en": "Exploring the Coupling Relationship between Flow and Place",
     "authors": [
-      "ye-chao"
+      "ye-chao",
+      "yang-fuduan"
     ],
     "authors_display": "叶超, 杨馥端, 严明晖",
     "authors_display_en": "Ye C., Yang F., Yan M.",
@@ -2492,7 +2493,8 @@
     "title": "Buzzing the production of space in tourism destination: A 'Wanghong' City perspective",
     "title_en": "Buzzing the production of space in tourism destination: A 'Wanghong' City perspective",
     "authors": [
-      "ye-chao"
+      "ye-chao",
+      "yang-fuduan"
     ],
     "authors_display": "Yang F., Ye C., Zhang W.",
     "authors_display_en": "Yang F., Ye C., Zhang W.",
@@ -2509,7 +2511,8 @@
     "title": "企业主义视角下乡村空间商品化的治理逻辑：以皋兰什川古梨园为例",
     "title_en": "Governance Logic of Rural Space Commodification from an Entrepreneurialism Perspective: A Case Study of Shichuan Ancient Pear Garden in Gaolan",
     "authors": [
-      "ye-chao"
+      "ye-chao",
+      "yang-fuduan"
     ],
     "authors_display": "杨馥端, 叶超",
     "authors_display_en": "Yang F., Ye C.",
@@ -2518,6 +2521,25 @@
     "month": 6,
     "direction": "governance",
     "language": "zh",
+    "doi": "",
+    "pdf": ""
+  },
+  {
+    "id": "gao-2026-left-behind",
+    "title": "Left behind or together? Urban-rural institutional barriers, city size and child co-migration with migrant families in China",
+    "title_en": "Left behind or together? Urban-rural institutional barriers, city size and child co-migration with migrant families in China",
+    "authors": [
+      "gao-lei",
+      "ye-chao",
+      "zhuang-liang"
+    ],
+    "authors_display": "Gao L., Ye C., Wang J., Zhuang L.",
+    "authors_display_en": "Gao L., Ye C., Wang J., Zhuang L.",
+    "journal": "Cities",
+    "year": 2026,
+    "month": 6,
+    "direction": "governance",
+    "language": "en",
     "doi": "",
     "pdf": ""
   }
