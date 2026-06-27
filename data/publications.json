@@ -35,7 +35,7 @@
     "direction": "sustainability",
     "language": "en",
     "doi": "",
-    "pdf": "",
+    "pdf": "papers/li-2026-carbon.pdf",
     "month": 1
   },
   {
@@ -108,7 +108,7 @@
     "direction": "governance",
     "language": "en",
     "doi": "",
-    "pdf": "",
+    "pdf": "papers/zhuang-2023-spatial-production.pdf",
     "month": 10
   },
   {
@@ -588,7 +588,7 @@
     "direction": "governance",
     "language": "en",
     "doi": "10.1016/j.jrurstud.2026.104208",
-    "pdf": "",
+    "pdf": "papers/yu-2026-green-coalition.pdf",
     "month": 5
   },
   {
@@ -606,7 +606,7 @@
     "direction": "governance",
     "language": "en",
     "doi": "10.1016/j.habitatint.2024.103258",
-    "pdf": "",
+    "pdf": "papers/yu-2025-cross-boundary.pdf",
     "month": 1
   },
   {
@@ -787,7 +787,7 @@
     "direction": "geographic-thought",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "papers/ye-2021-couplet-game.pdf"
   },
   {
     "id": "ye-2026-fast-tourism",
@@ -2486,7 +2486,7 @@
     "direction": "governance",
     "language": "en",
     "doi": "",
-    "pdf": ""
+    "pdf": "papers/ye-2026-climate-governance.pdf"
   },
   {
     "id": "yang-2026-wanghong-city",
