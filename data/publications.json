@@ -2627,5 +2627,22 @@
     "language": "zh",
     "doi": "",
     "pdf": "papers/ye-2021-reunderstand.pdf"
+  },
+  {
+    "id": "wu-2023-yifu-place",
+    "title": "情景之间：段义孚的地方经验与书写艺术",
+    "title_en": "Between Scenes: Yi-Fu Tuan's Place Experience and the Art of Writing",
+    "authors": [
+      "ye-chao"
+    ],
+    "authors_display": "吴佩瑾, 叶超",
+    "authors_display_en": "Wu P., Ye C.",
+    "journal": "地理科学进展",
+    "year": 2023,
+    "month": 6,
+    "direction": "geographic-thought",
+    "language": "zh",
+    "doi": "",
+    "pdf": "papers/wu-2023-yifu-place.pdf"
   }
 ]
