@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全部学术成果 - 叶超课题组</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Source+Serif+4:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar" id="navbar"><div class="nav-inner">
+<a href="index.html" class="nav-logo" data-zh="叶超课题组" data-en="Ye Chao's Lab">叶超课题组</a>
+<div class="nav-right">
+<div class="nav-links" id="nav-links">
+<a href="index.html" data-zh="主页" data-en="Home">主页</a>
+<a href="index.html#research" data-zh="研究方向" data-en="Research">研究方向</a>
+<a href="index.html#news" data-zh="动态" data-en="News">动态</a>
+<a href="index.html#team" data-zh="研究团队" data-en="Team">研究团队</a>
+<a href="publications.html" class="active" data-zh="学术成果" data-en="Publications">学术成果</a>
+<a href="index.html#contact" data-zh="联系" data-en="Contact">联系</a>
+</div>
+<button class="theme-btn" onclick="toggleTheme()" title="Toggle dark mode" aria-label="Toggle dark mode">&#9790;</button>
+<button class="lang-btn" onclick="toggleLang()"><span id="lang-label">EN</span></button>
+<button class="menu-btn" onclick="toggleMenu()" aria-label="Menu">&#9776;</button>
+</div>
+</div></nav>
+
+<section class="page-hero"><div class="container">
+<div class="breadcrumb"><a href="index.html" data-zh="主页" data-en="Home">主页</a> / <span data-zh="全部学术成果" data-en="All Publications">全部学术成果</span></div>
+</div></section>
+
+<section class="section"><div class="container">
+<h2 class="section-title" data-zh="全部学术成果" data-en="All Publications">全部学术成果</h2>
+
+<!-- Search and filters -->
+<div class="filter-bar">
+  <input type="text" id="search-input" class="search-box" placeholder="搜索标题、作者..." oninput="applyFilters()">
+  <div class="filter-row">
+    <select id="filter-year" class="filter-select" onchange="applyFilters()">
+      <option value="" data-zh="全部年份" data-en="All years">全部年份</option>
+    </select>
+    <select id="filter-direction" class="filter-select" onchange="applyFilters()">
+      <option value="" data-zh="全部方向" data-en="All directions">全部方向</option>
+      <option value="governance" data-zh="治理科学" data-en="Governance">治理科学</option>
+      <option value="sustainability" data-zh="可持续科学" data-en="Sustainability">可持续科学</option>
+      <option value="geographic-thought" data-zh="地理学思想" data-en="Geographic Thought">地理学思想</option>
+    </select>
+    <select id="filter-lang" class="filter-select" onchange="applyFilters()">
+      <option value="" data-zh="全部语言" data-en="All languages">全部语言</option>
+      <option value="zh" data-zh="中文" data-en="Chinese">中文</option>
+      <option value="en" data-zh="英文" data-en="English">英文</option>
+    </select>
+    <select id="filter-type" class="filter-select" onchange="applyFilters()">
+      <option value="" data-zh="全部类型" data-en="All types">全部类型</option>
+      <option value="article" data-zh="论文" data-en="Articles">论文</option>
+      <option value="book" data-zh="著作" data-en="Books">著作</option>
+    </select>
+  </div>
+  <div id="result-count" class="result-count"></div>
+</div>
+
+<div id="pub-full-list"></div>
+
+</div></section>
+
+<footer class="footer"><div class="container"><p>&copy; 2026 <span data-zh="叶超课题组" data-en="Ye Chao's Lab">叶超课题组</span></p></div></footer>
+
+<script src="js/app.js"></script>
+<script>
+// Populate year filter and render all pubs
+document.addEventListener('DOMContentLoaded', function() {
+  loadPublications(function(data) {
+    // Populate year dropdown
+    var years = [...new Set(data.map(function(p){return p.year}))].sort(function(a,b){return b-a});
+    var sel = document.getElementById('filter-year');
+    years.forEach(function(y) {
+      var opt = document.createElement('option');
+      opt.value = y; opt.textContent = y;
+      sel.appendChild(opt);
+    });
+    applyFilters();
+  });
+});
+
+function applyFilters() {
+  var query = document.getElementById('search-input').value.toLowerCase();
+  var year = document.getElementById('filter-year').value;
+  var dir = document.getElementById('filter-direction').value;
+  var lang = document.getElementById('filter-lang').value;
+  var type = document.getElementById('filter-type').value;
+
+  var filtered = allPubs.filter(function(p) {
+    if (year && p.year != year) return false;
+    if (dir && p.direction !== dir) return false;
+    if (lang && p.language !== lang) return false;
+    if (type === 'book' && p.type !== 'book') return false;
+    if (type === 'article' && p.type === 'book') return false;
+    if (query) {
+      var searchText = (p.title + ' ' + (p.title_en||'') + ' ' + p.authors_display + ' ' + (p.authors_display_en||'') + ' ' + p.journal).toLowerCase();
+      if (searchText.indexOf(query) === -1) return false;
+    }
+    return true;
+  });
+
+  // Render
+  var container = document.getElementById('pub-full-list');
+  var years = {};
+  filtered.forEach(function(p) {
+    if (!years[p.year]) years[p.year] = [];
+    years[p.year].push(p);
+  });
+
+  var html = '';
+  Object.keys(years).sort(function(a,b){return b-a}).forEach(function(y) {
+    html += '<h3 class="pub-year">' + y + '</h3>';
+    years[y].forEach(function(p) { html += renderOnePub(p); });
+  });
+
+  if (filtered.length === 0) {
+    html = '<p class="no-data">' + (currentLang === 'en' ? 'No results found.' : '未找到匹配结果') + '</p>';
+  }
+
+  container.innerHTML = html;
+
+  var countLabel = currentLang === 'en'
+    ? 'Showing ' + filtered.length + ' of ' + allPubs.length + ' publications'
+    : '显示 ' + filtered.length + ' / ' + allPubs.length + ' 条成果';
+  document.getElementById('result-count').textContent = countLabel;
+}
+</script>
+</body>
+</html>

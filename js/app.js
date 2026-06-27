@@ -5,6 +5,25 @@
 var currentLang = 'zh';
 var allPubs = [];
 
+/* --- 暗色模式 --- */
+function toggleTheme() {
+  document.body.classList.toggle('dark');
+  var isDark = document.body.classList.contains('dark');
+  localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  var btn = document.querySelector('.theme-btn');
+  if (btn) btn.innerHTML = isDark ? '&#9788;' : '&#9790;';
+}
+// Auto-apply saved theme
+(function() {
+  if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark');
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    var btn = document.querySelector('.theme-btn');
+    if (btn && document.body.classList.contains('dark')) btn.innerHTML = '&#9788;';
+  });
+})();
+
 /* --- 语言切换 --- */
 function toggleLang() {
   currentLang = currentLang === 'zh' ? 'en' : 'zh';
@@ -216,19 +235,43 @@ function loadNews(callback) {
     .catch(function(err) { console.log('No news data:', err); });
 }
 
-/* --- 渲染新闻（带分页） --- */
+var newsFilter = '';
+
+/* --- 渲染新闻（带标签和分页） --- */
 function renderNews() {
   var container = document.getElementById('news-list');
   if (!container || allNews.length === 0) return;
 
-  var total = allNews.length;
-  var totalPages = Math.ceil(total / newsPerPage);
-  var start = (newsPage - 1) * newsPerPage;
-  var items = allNews.slice(start, start + newsPerPage);
+  var tags = [];
+  allNews.forEach(function(n) {
+    var t = currentLang === 'en' ? (n.tag_en || n.tag) : n.tag;
+    if (t && tags.indexOf(t) === -1) tags.push(t);
+  });
 
-  var html = '';
+  var html = '<div class="news-filter-bar">';
+  html += '<button class="news-filter-btn' + (newsFilter === '' ? ' active' : '') + '" onclick="filterNews(\'\')">' + (currentLang === 'en' ? 'All' : '全部') + '</button>';
+  tags.forEach(function(t) {
+    html += '<button class="news-filter-btn' + (newsFilter === t ? ' active' : '') + '" onclick="filterNews(\'' + t + '\')">' + t + '</button>';
+  });
+  html += '</div>';
+
+  var filtered = allNews;
+  if (newsFilter) {
+    filtered = allNews.filter(function(n) {
+      var t = currentLang === 'en' ? (n.tag_en || n.tag) : n.tag;
+      return t === newsFilter;
+    });
+  }
+
+  var total = filtered.length;
+  var totalPages = Math.ceil(total / newsPerPage);
+  if (newsPage > totalPages) newsPage = 1;
+  var start = (newsPage - 1) * newsPerPage;
+  var items = filtered.slice(start, start + newsPerPage);
+
   items.forEach(function(n) {
     var title = currentLang === 'en' && n.title_en ? n.title_en : n.title;
+    var tag = currentLang === 'en' ? (n.tag_en || n.tag) : n.tag;
     if (n.url) {
       var isExternal = n.url.indexOf('http') === 0;
       html += '<a href="' + (isExternal ? '' : base) + n.url + '"' + (isExternal ? ' target="_blank"' : '') + ' class="news-row">';
@@ -236,6 +279,7 @@ function renderNews() {
       html += '<div class="news-row">';
     }
     html += '<time>' + n.date + '</time>';
+    if (tag) html += '<span class="news-tag tag-' + tag + '">' + tag + '</span>';
     html += '<p>' + title + '</p>';
     if (n.url) html += '<span class="arrow">&rsaquo;</span>';
     html += n.url ? '</a>' : '</div>';
@@ -255,8 +299,15 @@ function renderNews() {
   container.innerHTML = html;
 }
 
+function filterNews(tag) {
+  newsFilter = tag;
+  newsPage = 1;
+  renderNews();
+}
+
 function changeNewsPage(delta) {
-  var totalPages = Math.ceil(allNews.length / newsPerPage);
+  var filtered = newsFilter ? allNews.filter(function(n){var t=currentLang==="en"?(n.tag_en||n.tag):n.tag;return t===newsFilter;}) : allNews;
+  var totalPages = Math.ceil(filtered.length / newsPerPage);
   newsPage = Math.max(1, Math.min(totalPages, newsPage + delta));
   renderNews();
 }

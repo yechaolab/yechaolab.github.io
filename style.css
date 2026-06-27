@@ -101,8 +101,8 @@ a.member-card:hover{border-color:#bbb;box-shadow:0 4px 16px rgba(0,0,0,.06);}
 .no-data{color:var(--text-light);font-style:italic;}
 
 /* === 课题组横幅合照 === */
-.banner{max-width:900px;margin:56px auto 0;padding:0 28px;}
-.banner img{width:100%;height:auto;display:block;border-radius:6px;}
+.banner{width:100%;max-height:360px;overflow:hidden;margin-top:56px;}
+.banner img{width:100%;height:auto;display:block;object-fit:cover;max-height:360px;}
 .banner-placeholder{width:100%;height:200px;background:var(--bg-alt);display:flex;align-items:center;justify-content:center;color:var(--text-light);font-size:14px;border-bottom:1px solid var(--border);}
 
 /* === Join Us === */
@@ -161,7 +161,64 @@ a.member-card:hover{border-color:#bbb;box-shadow:0 4px 16px rgba(0,0,0,.06);}
   .card-grid-3{grid-template-columns:1fr;}
   .member-grid{grid-template-columns:repeat(2,1fr);}
   .contact-grid{grid-template-columns:1fr;}
+  .filter-row{flex-direction:column;}
 }
 @media(max-width:480px){
   .member-grid{grid-template-columns:1fr;}
 }
+
+/* === 暗色模式 === */
+.dark{
+  --navy:#e2e8f0;--blue:#60a5fa;--blue-light:#1e293b;
+  --green:#34d399;--green-light:#064e3b;
+  --purple:#a78bfa;--purple-light:#312e81;
+  --text:#e2e8f0;--text-mid:#94a3b8;--text-light:#64748b;
+  --bg:#0f172a;--bg-alt:#1e293b;--border:#334155;
+}
+.dark .navbar{background:rgba(15,23,42,.92);}
+.dark .nav-links.open{background:var(--bg);}
+.dark a.member-card,.dark .res-card,.dark .pub{background:var(--bg-alt);}
+.dark .photo-placeholder,.dark .banner-placeholder{background:var(--bg-alt);border-color:var(--border);}
+.dark .cite-box{background:var(--bg);border-color:var(--border);}
+.dark .filter-select,.dark .search-box{background:var(--bg-alt);color:var(--text);border-color:var(--border);}
+
+/* === 暗色模式切换按钮 === */
+.theme-btn{font-size:18px;padding:2px 8px;border-radius:4px;border:1px solid var(--border);background:transparent;color:var(--text);cursor:pointer;font-family:var(--sans);margin-left:4px;line-height:1;}
+.theme-btn:hover{background:var(--bg-alt);}
+
+/* === 成员悬停效果 === */
+a.member-card{position:relative;overflow:hidden;}
+.m-hover{position:absolute;inset:0;background:rgba(26,39,68,.92);display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;transition:opacity .25s;padding:16px;border-radius:10px;text-align:center;}
+.dark .m-hover{background:rgba(30,41,59,.95);}
+a.member-card:hover .m-hover{opacity:1;}
+.m-hover-name{font-size:15px;font-weight:600;color:#fff;margin-bottom:6px;}
+.m-hover-interests{font-size:12px;color:#94a3b8;margin-bottom:10px;line-height:1.5;}
+.m-hover-email{font-size:12px;color:var(--blue);word-break:break-all;}
+
+/* === 新闻标签 === */
+.news-tag{font-size:11px;padding:2px 8px;border-radius:10px;font-weight:600;margin-left:8px;white-space:nowrap;}
+.tag-论文发表,.tag-Publication{background:#dbeafe;color:#1d4ed8;}
+.tag-获奖荣誉,.tag-Award{background:#fef3c7;color:#92400e;}
+.tag-学术讲座,.tag-Lecture{background:#d1fae5;color:#065f46;}
+.tag-公告,.tag-Announcement{background:#e5e7eb;color:#374151;}
+.dark .tag-论文发表,.dark .tag-Publication{background:#1e3a5f;color:#93c5fd;}
+.dark .tag-获奖荣誉,.dark .tag-Award{background:#451a03;color:#fcd34d;}
+.dark .tag-学术讲座,.dark .tag-Lecture{background:#064e3b;color:#6ee7b7;}
+.dark .tag-公告,.dark .tag-Announcement{background:#1f2937;color:#9ca3af;}
+.news-filter-bar{display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap;}
+.news-filter-btn{font-size:13px;padding:4px 12px;border-radius:16px;border:1px solid var(--border);background:var(--bg);color:var(--text-mid);cursor:pointer;font-family:var(--sans);transition:all .15s;}
+.news-filter-btn:hover,.news-filter-btn.active{background:var(--blue);color:#fff;border-color:var(--blue);}
+
+/* === 搜索与筛选 === */
+.filter-bar{margin-bottom:24px;}
+.search-box{width:100%;padding:10px 14px;border-radius:8px;border:1px solid var(--border);font-size:15px;font-family:var(--sans);color:var(--text);background:var(--bg);margin-bottom:12px;outline:none;transition:border-color .2s;}
+.search-box:focus{border-color:var(--blue);}
+.filter-row{display:flex;gap:8px;margin-bottom:8px;}
+.filter-select{padding:8px 12px;border-radius:6px;border:1px solid var(--border);font-size:14px;font-family:var(--sans);color:var(--text);background:var(--bg);cursor:pointer;flex:1;outline:none;}
+.filter-select:focus{border-color:var(--blue);}
+.result-count{font-size:13px;color:var(--text-light);margin-top:4px;}
+
+/* === 查看更多按钮 === */
+.view-all-wrap{text-align:center;margin-top:24px;}
+.view-all-btn{display:inline-block;padding:10px 28px;border-radius:6px;border:1px solid var(--border);color:var(--text-mid);font-size:14px;font-weight:500;text-decoration:none!important;transition:all .15s;font-family:var(--sans);}
+.view-all-btn:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-light);}
