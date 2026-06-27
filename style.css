@@ -101,8 +101,8 @@ a.member-card:hover{border-color:#bbb;box-shadow:0 4px 16px rgba(0,0,0,.06);}
 .no-data{color:var(--text-light);font-style:italic;}
 
 /* === 课题组横幅合照 === */
-.banner{width:100%;max-height:360px;overflow:hidden;margin-top:56px;}
-.banner img{width:100%;height:auto;display:block;object-fit:cover;max-height:360px;}
+.banner{max-width:900px;margin:56px auto 0;padding:0 28px;}
+.banner img{width:100%;height:auto;display:block;border-radius:6px;}
 .banner-placeholder{width:100%;height:200px;background:var(--bg-alt);display:flex;align-items:center;justify-content:center;color:var(--text-light);font-size:14px;border-bottom:1px solid var(--border);}
 
 /* === Join Us === */
@@ -222,3 +222,6 @@ a.member-card:hover .m-hover{opacity:1;}
 .view-all-wrap{text-align:center;margin-top:24px;}
 .view-all-btn{display:inline-block;padding:10px 28px;border-radius:6px;border:1px solid var(--border);color:var(--text-mid);font-size:14px;font-weight:500;text-decoration:none!important;transition:all .15s;font-family:var(--sans);}
 .view-all-btn:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-light);}
+
+.tag-诗歌随笔,.tag-Poetry{background:#fae8ff;color:#86198f;}
+.dark .tag-诗歌随笔,.dark .tag-Poetry{background:#4a044e;color:#e879f9;}
