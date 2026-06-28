@@ -10,18 +10,12 @@ function toggleTheme() {
   document.body.classList.toggle('dark');
   var isDark = document.body.classList.contains('dark');
   localStorage.setItem('theme', isDark ? 'dark' : 'light');
-  var btn = document.querySelector('.theme-btn');
-  if (btn) btn.innerHTML = isDark ? '&#9788;' : '&#9790;';
 }
 // Auto-apply saved theme
 (function() {
   if (localStorage.getItem('theme') === 'dark') {
     document.body.classList.add('dark');
   }
-  document.addEventListener('DOMContentLoaded', function() {
-    var btn = document.querySelector('.theme-btn');
-    if (btn && document.body.classList.contains('dark')) btn.innerHTML = '&#9788;';
-  });
 })();
 
 /* --- 语言切换 --- */
