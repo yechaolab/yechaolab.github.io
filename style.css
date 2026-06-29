@@ -118,6 +118,9 @@ a.member-card:hover{border-color:#bbb;box-shadow:0 4px 16px rgba(0,0,0,.06);}
 /* === 联系 === */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;}
 .contact-grid p{font-size:15px;color:var(--text-mid);line-height:1.8;}
+.social-links{margin-top:4px;}
+.social-link{color:var(--text-mid);text-decoration:none!important;transition:color .2s;}
+.social-link:hover{color:var(--blue);}
 
 /* === 页脚 === */
 .footer{padding:24px 0;text-align:center;border-top:1px solid var(--border);font-size:13px;color:var(--text-light);}
