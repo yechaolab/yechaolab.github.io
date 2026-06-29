@@ -111,12 +111,9 @@
 </section>
 
 <!-- ============================================================
-     研究团队 — 卡片式，点击进入个人页面
-     修改指南：
-     1. 在 team/ 文件夹下新建 HTML（参照 team/ye-chao.html）
-     2. 复制下面一个 <a class="member-card"> 块
-     3. 修改链接、头像、姓名、职称、兴趣
-     头像照片放 images/ 文件夹，替换 <div class="m-avatar">姓</div> 为
+     研究团队 — 横向卡片，一行两个，点击进入个人页面
+     添加照片：把照片放 images/ 文件夹，然后替换对应卡片里的
+     <div class="m-avatar">姓</div> 为
      <img class="m-avatar" src="images/xxx.jpg" alt="姓名">
      ============================================================ -->
 <section id="team" class="section">
@@ -125,111 +122,161 @@
 
     <h3 class="group-label" data-zh="教师" data-en="Faculty">教师</h3>
     <div class="member-grid">
-      <a href="team/ye-chao.html" class="member-card">
-        <div class="m-avatar">叶</div>
-        <div class="m-name-zh">叶超</div>
-        <div class="m-name-en">Ye Chao</div>
-        <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
-        <div class="m-role" data-zh="教授、博士生导师" data-en="Professor">教授、博士生导师</div>
-        <div class="m-interests">治理科学 · 可持续科学 · 地理学思想</div>
 
+      <a href="team/ye-chao.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/ye-chao.jpg" alt="叶超"> -->
+        <div class="m-avatar">叶</div>
+        <div class="m-info">
+          <div class="m-name-zh">叶超</div>
+          <div class="m-name-en">Ye Chao</div>
+          <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
+          <div class="m-role" data-zh="教授、博士生导师" data-en="Professor">教授、博士生导师</div>
+          <div class="m-interests">治理科学 · 可持续科学 · 地理学思想</div>
+        </div>
       </a>
+
       <a href="team/zhuang-liang.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/zhuang-liang.jpg" alt="庄良"> -->
         <div class="m-avatar">庄</div>
-        <div class="m-name-zh">庄良</div>
-        <div class="m-name-en">Zhuang Liang</div>
-        <div class="m-aff" data-zh="华东师范大学" data-en="East China Normal University">华东师范大学</div>
-        <div class="m-role" data-zh="研究员" data-en="Researcher">研究员</div>
-        <div class="m-interests">人口地理 · 城镇化与城乡治理 · 可持续科学</div>
+        <div class="m-info">
+          <div class="m-name-zh">庄良</div>
+          <div class="m-name-en">Zhuang Liang</div>
+          <div class="m-aff" data-zh="华东师范大学" data-en="East China Normal University">华东师范大学</div>
+          <div class="m-role" data-zh="研究员" data-en="Researcher">研究员</div>
+          <div class="m-interests">人口地理 · 城镇化与城乡治理 · 可持续科学</div>
+        </div>
       </a>
+
       <a href="team/guo-wenbo.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/guo-wenbo.jpg" alt="郭文伯"> -->
         <div class="m-avatar">郭</div>
-        <div class="m-name-zh">郭文伯</div>
-        <div class="m-name-en">Guo Wenbo</div>
-        <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
-        <div class="m-role" data-zh="副研究员" data-en="Associate Research Fellow">副研究员</div>
-        <div class="m-interests" data-zh="可持续城市 · 一带一路 · 全球治理" data-en="Sustainable Cities · Belt and Road · Global Governance">可持续城市 · 一带一路 · 全球治理</div>
+        <div class="m-info">
+          <div class="m-name-zh">郭文伯</div>
+          <div class="m-name-en">Guo Wenbo</div>
+          <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
+          <div class="m-role" data-zh="副研究员" data-en="Associate Research Fellow">副研究员</div>
+          <div class="m-interests" data-zh="可持续城市 · 一带一路 · 全球治理" data-en="Sustainable Cities · Belt and Road · Global Governance">可持续城市 · 一带一路 · 全球治理</div>
+        </div>
       </a>
+
       <a href="team/gao-chao.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/gao-chao.jpg" alt="高超"> -->
         <div class="m-avatar">高</div>
-        <div class="m-name-zh">高超</div>
-        <div class="m-name-en">Gao Chao</div>
-        <div class="m-aff" data-zh="长安大学" data-en="Chang'an University">长安大学</div>
-        <div class="m-role" data-zh="讲师、硕士生导师" data-en="Lecturer">讲师、硕士生导师</div>
-        <div class="m-interests" data-zh="城市更新治理 · 人本行为与环境 · 交通数字化" data-en="Urban Renewal Governance · Human-centered Behavior & Environment · Transport Digitalization">城市更新治理 · 人本行为与环境 · 交通数字化</div>
+        <div class="m-info">
+          <div class="m-name-zh">高超</div>
+          <div class="m-name-en">Gao Chao</div>
+          <div class="m-aff" data-zh="长安大学" data-en="Chang'an University">长安大学</div>
+          <div class="m-role" data-zh="讲师、硕士生导师" data-en="Lecturer">讲师、硕士生导师</div>
+          <div class="m-interests" data-zh="城市更新治理 · 人本行为与环境 · 交通数字化" data-en="Urban Renewal Governance · Human-centered Behavior & Environment · Transport Digitalization">城市更新治理 · 人本行为与环境 · 交通数字化</div>
+        </div>
       </a>
+
       <a href="team/li-yonghe.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/li-yonghe.jpg" alt="李永贺"> -->
         <div class="m-avatar">李</div>
-        <div class="m-name-zh">李永贺</div>
-        <div class="m-name-en">Li Yonghe</div>
-        <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
-        <div class="m-role" data-zh="博士后" data-en="Postdoc">博士后</div>
-        <div class="m-interests">气候治理</div>
+        <div class="m-info">
+          <div class="m-name-zh">李永贺</div>
+          <div class="m-name-en">Li Yonghe</div>
+          <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
+          <div class="m-role" data-zh="博士后" data-en="Postdoc">博士后</div>
+          <div class="m-interests">气候治理</div>
+        </div>
       </a>
+
     </div>
 
     <h3 class="group-label" data-zh="博士研究生" data-en="PhD Students">博士研究生</h3>
     <div class="member-grid">
+
       <a href="team/yu-jie.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/yu-jie.jpg" alt="于洁"> -->
         <div class="m-avatar">于</div>
-        <div class="m-name-zh">于洁</div>
-        <div class="m-name-en">Yu Jie</div>
-        <div class="m-aff" data-zh="华东师范大学" data-en="East China Normal University">华东师范大学</div>
-        <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
-        <div class="m-interests">跨界治理 · 乡村治理</div>
+        <div class="m-info">
+          <div class="m-name-zh">于洁</div>
+          <div class="m-name-en">Yu Jie</div>
+          <div class="m-aff" data-zh="华东师范大学" data-en="East China Normal University">华东师范大学</div>
+          <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
+          <div class="m-interests">跨界治理 · 乡村治理</div>
+        </div>
       </a>
+
       <a href="team/wu-shiqiang.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/wu-shiqiang.jpg" alt="吴仕嫱"> -->
         <div class="m-avatar">吴</div>
-        <div class="m-name-zh">吴仕嫱</div>
-        <div class="m-name-en">Wu Shiqiang</div>
-        <div class="m-aff" data-zh="华东师范大学" data-en="East China Normal University">华东师范大学</div>
-        <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
-        <div class="m-interests">乡村旅游 · 不平衡发展</div>
+        <div class="m-info">
+          <div class="m-name-zh">吴仕嫱</div>
+          <div class="m-name-en">Wu Shiqiang</div>
+          <div class="m-aff" data-zh="华东师范大学" data-en="East China Normal University">华东师范大学</div>
+          <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
+          <div class="m-interests">乡村旅游 · 不平衡发展</div>
+        </div>
       </a>
+
       <a href="team/yang-fuduan.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/yang-fuduan.jpg" alt="杨馥端"> -->
         <div class="m-avatar">杨</div>
-        <div class="m-name-zh">杨馥端</div>
-        <div class="m-name-en">Yang Fuduan</div>
-        <div class="m-aff" data-zh="西北师范大学" data-en="Northwest Normal University">西北师范大学</div>
-        <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
-        <div class="m-interests">流量与地方 · 旅游空间生产 · 乡村治理</div>
+        <div class="m-info">
+          <div class="m-name-zh">杨馥端</div>
+          <div class="m-name-en">Yang Fuduan</div>
+          <div class="m-aff" data-zh="西北师范大学" data-en="Northwest Normal University">西北师范大学</div>
+          <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
+          <div class="m-interests">流量与地方 · 旅游空间生产 · 乡村治理</div>
+        </div>
       </a>
+
       <a href="team/gao-lei.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/gao-lei.jpg" alt="高磊"> -->
         <div class="m-avatar">高</div>
-        <div class="m-name-zh">高磊</div>
-        <div class="m-name-en">Gao Lei</div>
-        <div class="m-aff" data-zh="华东师范大学" data-en="East China Normal University">华东师范大学</div>
-        <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
-        <div class="m-interests">人口流动 · 城乡治理 · 地理学思想</div>
+        <div class="m-info">
+          <div class="m-name-zh">高磊</div>
+          <div class="m-name-en">Gao Lei</div>
+          <div class="m-aff" data-zh="华东师范大学" data-en="East China Normal University">华东师范大学</div>
+          <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
+          <div class="m-interests">人口流动 · 城乡治理 · 地理学思想</div>
+        </div>
       </a>
+
       <a href="team/ren-hongjie.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/ren-hongjie.jpg" alt="任洪杰"> -->
         <div class="m-avatar">任</div>
-        <div class="m-name-zh">任洪杰</div>
-        <div class="m-name-en">Ren Hongjie</div>
-        <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
-        <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
-        <div class="m-interests"></div>
+        <div class="m-info">
+          <div class="m-name-zh">任洪杰</div>
+          <div class="m-name-en">Ren Hongjie</div>
+          <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
+          <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
+          <div class="m-interests"></div>
+        </div>
       </a>
+
       <a href="team/wang-jiying.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/wang-jiying.jpg" alt="王继应"> -->
         <div class="m-avatar">王</div>
-        <div class="m-name-zh">王继应</div>
-        <div class="m-name-en">Wang Jiying</div>
-        <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
-        <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
-        <div class="m-interests"></div>
+        <div class="m-info">
+          <div class="m-name-zh">王继应</div>
+          <div class="m-name-en">Wang Jiying</div>
+          <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
+          <div class="m-role" data-zh="博士研究生" data-en="PhD Student">博士研究生</div>
+          <div class="m-interests"></div>
+        </div>
       </a>
+
     </div>
 
     <h3 class="group-label" data-zh="硕士研究生" data-en="Master Students">硕士研究生</h3>
     <div class="member-grid">
+
       <a href="team/yin-zaili.html" class="member-card">
+        <!-- 照片：<img class="m-avatar" src="images/yin-zaili.jpg" alt="尹渽理"> -->
         <div class="m-avatar">尹</div>
-        <div class="m-name-zh">尹渽理</div>
-        <div class="m-name-en">Yin Zaili</div>
-        <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
-        <div class="m-role" data-zh="硕士研究生" data-en="Master Student">硕士研究生</div>
-        <div class="m-interests"></div>
+        <div class="m-info">
+          <div class="m-name-zh">尹渽理</div>
+          <div class="m-name-en">Yin Zaili</div>
+          <div class="m-aff" data-zh="复旦大学" data-en="Fudan University">复旦大学</div>
+          <div class="m-role" data-zh="硕士研究生" data-en="Master Student">硕士研究生</div>
+          <div class="m-interests"></div>
+        </div>
       </a>
+
     </div>
 
   </div>
