@@ -132,8 +132,8 @@ a.member-card:hover{border-color:#bbb;box-shadow:0 4px 16px rgba(0,0,0,.06);}
 /* === 子页面 Hero（团队/研究/新闻详情页通用） === */
 .page-hero{padding:96px 0 32px;border-bottom:1px solid var(--border);}
 .page-hero-row{display:flex;gap:32px;align-items:flex-start;}
-.page-avatar{width:120px;height:120px;border-radius:50%;background:var(--blue-light);color:var(--blue);display:flex;align-items:center;justify-content:center;font-size:40px;font-weight:700;font-family:var(--serif);flex-shrink:0;overflow:hidden;}
-.page-avatar img{width:120px;height:120px;border-radius:50%;object-fit:cover;}
+.page-avatar{width:140px;height:180px;border-radius:10px;background:var(--blue-light);color:var(--blue);display:flex;align-items:center;justify-content:center;font-size:40px;font-weight:700;font-family:var(--serif);flex-shrink:0;overflow:hidden;object-fit:cover;}
+img.page-avatar{object-fit:cover;}
 .page-hero h1{font-family:var(--serif);font-size:28px;font-weight:700;color:var(--navy);margin-bottom:4px;}
 .page-meta{font-size:15px;color:var(--text-mid);margin-bottom:2px;}
 .page-meta-light{font-size:14px;color:var(--text-light);margin-bottom:12px;}
